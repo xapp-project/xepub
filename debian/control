@@ -5,8 +5,10 @@ Maintainer: Clement Lefebvre <root@linuxmint.com>
 Build-Depends:
  debhelper-compat (= 13),
  gettext,
- libglib2.0-dev-bin,
+ gtk-update-icon-cache,
+ libglib2.0-dev | libgio-2.0-dev,
  meson,
+ pkg-config,
  python3,
 Standards-Version: 4.6.2
 Rules-Requires-Root: no
