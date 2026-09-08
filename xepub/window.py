@@ -161,6 +161,11 @@ class ReaderWindow(Gtk.ApplicationWindow):
         self.toc_view.append_column(Gtk.TreeViewColumn(_("Contents"), renderer, text=0))
         self.toc_view.get_selection().connect("changed", self._toc_selection_changed)
         toc_scroll = Gtk.ScrolledWindow(); toc_scroll.add(self.toc_view)
+        self.toc_panel = Gtk.Stack()
+        self.toc_panel.add_named(toc_scroll, "list")
+        self.toc_panel.add_named(
+            self._empty_sidebar_panel("view-list-symbolic", _("No chapters")), "empty")
+        self.toc_panel.set_visible_child_name("empty")
         self.annotations_list = Gtk.ListBox(selection_mode=Gtk.SelectionMode.NONE)
         self.annotations_scroll = Gtk.ScrolledWindow()
         self.annotations_scroll.add(self.annotations_list)
@@ -205,7 +210,7 @@ class ReaderWindow(Gtk.ApplicationWindow):
         search_panel.pack_start(self.search_results_panel, True, True, 0)
         self.sidebar_stack = Gtk.Stack()
         for child, name, title, icon in (
-                (toc_scroll, "contents", _("Contents"), "view-list-symbolic"),
+                (self.toc_panel, "contents", _("Contents"), "view-list-symbolic"),
                 (self.bookmarks_panel, "bookmarks", _("Bookmarks"), "xsi-user-bookmarks-symbolic"),
                 (search_panel, "search", _("Search"), "xsi-edit-find-symbolic"),
                 (self.annotations_panel, "annotations", _("Annotations"), "xsi-edit-symbolic")):
@@ -236,6 +241,7 @@ class ReaderWindow(Gtk.ApplicationWindow):
         # show_all() makes every child of nested stacks visible. Reassert the
         # initial empty states afterwards so a sidebar page can never expose
         # its blank list while no content has been populated yet.
+        self.toc_panel.set_visible_child_name("empty")
         self.bookmarks_panel.set_visible_child_name("empty")
         self.annotations_panel.set_visible_child_name("empty")
         self.search_results_panel.set_visible_child_name("empty")
@@ -857,6 +863,7 @@ pre, table {{ max-width:100%; overflow-wrap:anywhere; }} {reader_style}
             for item in entries:
                 row = self.toc_model.append(parent, [item.label, item.href]); add(item.children, row)
         add(self.book.toc)
+        self.toc_panel.set_visible_child_name("list" if self.book.toc else "empty")
 
     def _toc_selection_changed(self, selection):
         if self._syncing_toc or not self.book:
