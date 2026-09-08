@@ -480,6 +480,7 @@ class ReaderWindow(Gtk.ApplicationWindow):
         self.header.set_title(candidate.metadata.get("title", Path(filename).stem))
         self.header.set_subtitle(candidate.metadata.get("creator", ""))
         self._populate_toc()
+        self._refresh_bookmarks_sidebar()
         self._refresh_annotations_sidebar()
         resource = state.get("resource")
         if not resource or not self._load_non_spine_resource(resource, save_current=False):
