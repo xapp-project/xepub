@@ -64,6 +64,8 @@ class ReaderWindow(Gtk.ApplicationWindow):
         self._pending_search_result = None
         self._last_content_click = None
         self._syncing_search_selection = False
+        self._syncing_annotation_selection = False
+        self._pending_annotation_id = None
         self.search_chapter_lists = []
         self.search_all_chapters = self.settings.get_boolean("search-all-chapters")
         self.search_case_sensitive = self.settings.get_boolean("search-case-sensitive")
@@ -373,6 +375,7 @@ class ReaderWindow(Gtk.ApplicationWindow):
             expander = Gtk.Expander(label=self._chapter_label(chapter), expanded=True, margin=6)
             cards = Gtk.ListBox(selection_mode=Gtk.SelectionMode.SINGLE)
             cards.set_activate_on_single_click(False)
+            cards.connect("selected-rows-changed", self._annotation_selected)
             cards.connect("row-activated", self._annotation_row_activated)
             self._annotation_lists.append(cards)
             for annotation in (item for item in annotations if item.get("chapter") == chapter):
@@ -422,6 +425,35 @@ class ReaderWindow(Gtk.ApplicationWindow):
         cards.select_row(row)
         row.grab_focus()
         GLib.idle_add(self._scroll_annotation_row_into_view, row)
+
+    def _annotation_selected(self, listbox):
+        if self._syncing_annotation_selection or not self.book:
+            return
+        row = listbox.get_selected_row()
+        if row is None:
+            return
+        self._syncing_annotation_selection = True
+        try:
+            for other in self._annotation_lists:
+                if other is not listbox:
+                    other.unselect_all()
+        finally:
+            self._syncing_annotation_selection = False
+        annotation = row.annotation
+        self._remember_location()
+        if annotation.get("chapter") != self.chapter:
+            self.chapter = annotation["chapter"]
+            self.pending_fraction = 0.0
+            self._pending_annotation_id = annotation.get("id")
+            self.load_chapter()
+            return
+        self._go_to_annotation(annotation.get("id"))
+
+    def _go_to_annotation(self, annotation_id):
+        if not annotation_id:
+            return
+        selector = '[data-annotation-id="%s"]' % annotation_id
+        self._paginate("goTo", selector, callback=self._metrics_result)
 
     def _scroll_annotation_row_into_view(self, row):
         if not row.get_mapped():
@@ -632,6 +664,10 @@ pre, table {{ max-width:100%; overflow-wrap:anywhere; }} {reader_style}
         self._metrics_result(value)
         self._render_annotations()
         self.reader_stack.set_visible_child_name("reader")
+        if self._pending_annotation_id:
+            annotation_id = self._pending_annotation_id
+            self._pending_annotation_id = None
+            self._go_to_annotation(annotation_id)
         if self._pending_search_result:
             text, occurrence = self._pending_search_result
             self._pending_search_result = None
