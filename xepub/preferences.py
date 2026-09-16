@@ -154,11 +154,11 @@ class PreferencesDialog(Gtk.Dialog):
         page.pack_start(scroll, True, True, 0)
 
         buttons = Gtk.ButtonBox(layout_style=Gtk.ButtonBoxStyle.END, spacing=6)
-        add = Gtk.Button.new_from_icon_name("list-add-symbolic", Gtk.IconSize.BUTTON)
+        add = Gtk.Button.new_from_icon_name("xsi-list-add-symbolic", Gtk.IconSize.BUTTON)
         self.edit = Gtk.Button.new_from_icon_name(
-            "document-edit-symbolic", Gtk.IconSize.BUTTON)
+            "xsi-document-edit-symbolic", Gtk.IconSize.BUTTON)
         self.remove = Gtk.Button.new_from_icon_name(
-            "list-remove-symbolic", Gtk.IconSize.BUTTON)
+            "xsi-list-remove-symbolic", Gtk.IconSize.BUTTON)
         add.set_tooltip_text(_("Add"))
         self.edit.set_tooltip_text(_("Edit"))
         self.remove.set_tooltip_text(_("Remove"))

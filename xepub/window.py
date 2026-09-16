@@ -166,7 +166,7 @@ class ReaderWindow(Gtk.ApplicationWindow):
         self.toc_panel = Gtk.Stack()
         self.toc_panel.add_named(toc_scroll, "list")
         self.toc_panel.add_named(
-            self._empty_sidebar_panel("view-list-symbolic", _("No chapters")), "empty")
+            self._empty_sidebar_panel("xsi-view-list-symbolic", _("No chapters")), "empty")
         self.toc_panel.set_visible_child_name("empty")
         self.annotations_list = Gtk.ListBox(selection_mode=Gtk.SelectionMode.NONE)
         self.annotations_scroll = Gtk.ScrolledWindow()
@@ -212,7 +212,7 @@ class ReaderWindow(Gtk.ApplicationWindow):
         search_panel.pack_start(self.search_results_panel, True, True, 0)
         self.sidebar_stack = Gtk.Stack()
         for child, name, title, icon in (
-                (self.toc_panel, "contents", _("Contents"), "view-list-symbolic"),
+                (self.toc_panel, "contents", _("Contents"), "xsi-view-list-symbolic"),
                 (self.bookmarks_panel, "bookmarks", _("Bookmarks"), "xsi-user-bookmarks-symbolic"),
                 (search_panel, "search", _("Search"), "xsi-edit-find-symbolic"),
                 (self.annotations_panel, "annotations", _("Annotations"), "xsi-edit-symbolic")):
@@ -323,7 +323,7 @@ class ReaderWindow(Gtk.ApplicationWindow):
             label = Gtk.Label(label=mark.get("label", _("Bookmark")), xalign=0,
                               ellipsize=Pango.EllipsizeMode.END, margin=6)
             label.set_hexpand(True)
-            remove = Gtk.Button.new_from_icon_name("edit-delete-symbolic", Gtk.IconSize.BUTTON)
+            remove = Gtk.Button.new_from_icon_name("xsi-edit-delete-symbolic", Gtk.IconSize.BUTTON)
             remove.set_relief(Gtk.ReliefStyle.NONE)
             remove.set_tooltip_text(_("Remove bookmark"))
             remove.connect("clicked", self._remove_bookmark, index)
@@ -399,7 +399,7 @@ class ReaderWindow(Gtk.ApplicationWindow):
                 date = Gtk.Label(label=annotation.get("created", "").replace("T", " "), xalign=0)
                 date.get_style_context().add_class("dim-label")
                 text.pack_start(date, False, False, 0)
-                remove = Gtk.Button.new_from_icon_name("edit-delete-symbolic", Gtk.IconSize.BUTTON)
+                remove = Gtk.Button.new_from_icon_name("xsi-edit-delete-symbolic", Gtk.IconSize.BUTTON)
                 remove.set_relief(Gtk.ReliefStyle.NONE)
                 remove.set_tooltip_text(_("Delete annotation"))
                 remove.connect("clicked", self._remove_annotation, annotation.get("id"))
@@ -980,7 +980,7 @@ pre, table {{ max-width:100%; overflow-wrap:anywhere; }} {reader_style}
         self.reader_context_menu = Gtk.Menu()
         self.go_back_menu_item = Gtk.ImageMenuItem.new_with_label(_("Go Back"))
         self.go_back_menu_item.set_image(Gtk.Image.new_from_icon_name(
-            "go-previous-symbolic", Gtk.IconSize.MENU))
+            "xsi-go-previous-symbolic", Gtk.IconSize.MENU))
         self.go_back_menu_item.set_always_show_image(True)
         self.go_back_menu_item.connect("activate", lambda _item: self.go_back())
         self.reader_context_menu.append(self.go_back_menu_item)

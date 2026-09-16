@@ -23,5 +23,6 @@ Depends:
  python3-gi,
  python3-xapp,
  python3-setproctitle,
+ xapp-symbolic-icons,
 Description: EPUB reader for the Linux desktop
  Xepub is a secure, comfortable, paginated EPUB reader.
