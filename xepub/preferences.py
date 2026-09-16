@@ -72,6 +72,7 @@ class PreferencesDialog(Gtk.Dialog):
                                                (_("Page margins"), self.margin),
                                                (_("Zoom (%)"), self.zoom))):
             general.attach(Gtk.Label(label=label, xalign=0), 0, row, 1, 1)
+            widget.set_halign(Gtk.Align.START)
             general.attach(widget, 1, row, 1, 1)
         page.pack_start(general, False, False, 0)
 
