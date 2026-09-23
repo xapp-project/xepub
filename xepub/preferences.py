@@ -79,6 +79,8 @@ class PreferencesDialog(Gtk.Dialog):
 
         typography = Gtk.Grid(row_spacing=10, column_spacing=12, margin=8)
         self.font = Gtk.FontButton(font=self.preferences["font"])
+        self.font.set_show_style(False)
+        self.font.set_show_size(False)
         self.size = Gtk.SpinButton.new_with_range(12, 40, 1)
         self.size.set_value(self.preferences["size"])
         self.line_height = Gtk.SpinButton.new_with_range(1.0, 2.5, .05)
