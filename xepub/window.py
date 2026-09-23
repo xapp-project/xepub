@@ -30,7 +30,7 @@ _ = l10n("xepub")
 class ReaderWindow(Gtk.ApplicationWindow):
     DEFAULTS = {
         "font": "Serif", "size": 20, "line_height": 1.55, "margin": 64,
-        "alignment": "left", "theme": "light", "publisher": True, "zoom": 1.0,
+        "alignment": "justify", "theme": "light", "publisher": True, "zoom": 1.0,
     }
 
     def __init__(self, application):
