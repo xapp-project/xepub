@@ -67,10 +67,11 @@ class PreferencesDialog(Gtk.Dialog):
         self.zoom.set_value(self.preferences["zoom"] * 100)
         self.zoom.set_value_pos(Gtk.PositionType.RIGHT)
         self.zoom.set_digits(0)
-        for row, (label, widget) in enumerate(((_("Use book styling"), self.publisher),
+        for row, (label, widget) in enumerate((
                                                (_("Theme"), self.theme),
-                                               (_("Page margins"), self.margin),
-                                               (_("Zoom (%)"), self.zoom))):
+                                               (_("Page margins (px)"), self.margin),
+                                               (_("Zoom (%)"), self.zoom),
+                                               (_("Use book styling"), self.publisher))):
             general.attach(Gtk.Label(label=label, xalign=0), 0, row, 1, 1)
             widget.set_halign(Gtk.Align.START)
             general.attach(widget, 1, row, 1, 1)
@@ -87,8 +88,8 @@ class PreferencesDialog(Gtk.Dialog):
             self.align.append_text(value)
         self.align.set_active(1 if self.preferences["alignment"] == "justify" else 0)
         for row, (label, widget) in enumerate(((_("Font family"), self.font),
-                                               (_("Font size"), self.size),
-                                               (_("Line spacing"), self.line_height),
+                                               (_("Font size (px)"), self.size),
+                                               (_("Line spacing (px)"), self.line_height),
                                                (_("Alignment"), self.align))):
             typography.attach(Gtk.Label(label=label, xalign=0), 0, row, 1, 1)
             typography.attach(widget, 1, row, 1, 1)
