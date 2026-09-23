@@ -1,3 +1,24 @@
+xepub (1.0.2) adrien; urgency=medium
+
+  [ Butterfly ]
+  * control: update build depends (#1)
+
+  [ Clement Lefebvre ]
+  * Switch to XSI
+  * Update README
+  * readme: Clarify build instructions
+  * preferences: Clarify units and reorder prefs
+  * preferences: Justify text by default
+  * preferences: Display font families consistently
+  * preferences: Separate reader and application themes
+  * headerbar: Use a traditional menu
+  * l10n: Update POT
+
+  [ Ang ]
+  * preferences: Fix widget alignment (#5)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 23 Sep 2026 12:47:45 +0100
+
 xepub (1.0.1) alfa; urgency=medium
 
   * Fix bookmarks not being loaded on app launch
