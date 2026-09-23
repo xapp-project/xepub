@@ -6,47 +6,46 @@ EPUB reader for Linux desktops.
 
 Xepub is an XApp, so it works in any desktop and any distro.
 
-## Dependencies
-
-### Runtime Dependencies
-
-```text
-gir1.2-gtk-3.0
-gir1.2-webkit2-4.1
-python3
-python3-gi
-python3-setproctitle
-python3-xapp
-xapp-symbolic-icons
-```
-
-### Build Dependencies
-
-```text
-gettext
-gtk-update-icon-cache
-libglib2.0-dev | libgio-2.0-dev
-meson
-pkg-config
-python3
-```
-
 ## Building from source
 
-### For Debian distributions (Mint, Ubuntu, etc.)
+### For Mint with mint-dev-tools
 
 ```bash
-sudo apt build-dep --mark-auto .
-dpkg-buildpackage
+# Install mint-dev-tools
+apt install mint-dev-tools
+# Remove any previous versions
+apt remove xepub
+# Build and install from github
+mint-build -i -g https://github.com/xapp-project/xepub.git
 ```
 
-This creates Xepub packages in the parent directory. After installing them, run
-`xepub my-book.epub` or open Xepub from the application menu.
+### For Debian distributions (Mint, Ubuntu, etc.) with dpkg-buildpackage
 
-### For other distributions
+```bash
+# Get the source code..
+git clone https://github.com/xapp-project/xepub.git
+# Go in..
+cd xepub
+# Install the build dependencies..
+sudo apt build-dep --mark-auto .
+# Remove any previously built packages
+rm -f ../xepub*.deb
+# Build
+dpkg-buildpackage
+# Install
+sudo apt install ../xepub*.deb
+```
 
-Xepub uses the Meson build system. Install the equivalent build and runtime
-dependencies for your distribution. For example:
+### For other distributions with meson
+
+```bash
+# Get the source code..
+git clone https://github.com/xapp-project/xepub.git
+# Go in..
+cd xepub
+```
+
+Install the build and runtime dependencies for your distribution. For example:
 
 ```bash
 # Fedora: sudo dnf install meson ninja-build python3 gettext
@@ -54,16 +53,45 @@ dependencies for your distribution. For example:
 # openSUSE: sudo zypper install meson ninja python3 gettext-tools
 ```
 
-### Build and install
+The dependencies are listed below (using Debian package names, names may be different in your distribution). Install all of them.
 
-```sh
+#### Dependencies for building and runtime
+
+```text
+python3
+```
+
+#### Dependencies for building
+
+```text
+gettext
+gtk-update-icon-cache
+libglib2.0-dev or libgio-2.0-dev
+meson
+pkg-config
+```
+
+#### Dependencies for runtime
+
+```text
+gir1.2-gtk-3.0
+gir1.2-webkit2-4.1
+python3-gi
+python3-setproctitle
+python3-xapp
+xapp-symbolic-icons
+```
+
+#### Build and install
+
+```bash
 meson setup build --prefix=/usr/local
 meson compile -C build
 meson test -C build
 sudo meson install -C build
 ```
 
-### Uninstall
+#### Uninstall
 
 To remove a Meson installation while retaining the build directory:
 
