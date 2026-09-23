@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 16:10+0100\n"
+"POT-Creation-Date: 2026-09-23 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,31 +17,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/xepub.desktop.in:3 xepub/main.py:23 xepub/window.py:1421
+#: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
 msgid "Book Reader"
 msgstr ""
 
-#: data/xepub.desktop.in:4
+#: data/xepub.desktop.in:3
 msgid "Read EPUB books"
 msgstr ""
 
-#: data/xepub.desktop.in:11
+#: data/xepub.desktop.in:10
 msgid "ebook;book;reader;EPUB;"
 msgstr ""
 
-#: xepub/window.ui:20 xepub/window.py:161 xepub/window.py:208
+#: xepub/window.ui:20 xepub/window.py:168 xepub/window.py:220
 msgid "Contents"
 msgstr ""
 
-#: xepub/window.ui:40 xepub/window.py:209
+#: xepub/window.ui:40 xepub/window.py:221
 msgid "Bookmarks"
 msgstr ""
 
-#: xepub/window.ui:60 xepub/window.py:211
+#: xepub/window.ui:60 xepub/window.py:223
 msgid "Annotations"
 msgstr ""
 
-#: xepub/window.ui:80 xepub/window.py:210
+#: xepub/window.ui:80 xepub/window.py:222
 msgid "Search"
 msgstr ""
 
@@ -65,8 +65,8 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
-#: xepub/main.py:60 xepub/preferences.py:234 xepub/window.py:536
-#: xepub/window.py:1073
+#: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
+#: xepub/window.py:1128
 msgid "Cancel"
 msgstr ""
 
@@ -74,19 +74,19 @@ msgstr ""
 msgid "EPUB books"
 msgstr ""
 
-#: xepub/preferences.py:14 xepub/preferences.py:238
+#: xepub/preferences.py:14 xepub/preferences.py:249
 msgid "Dictionary"
 msgstr ""
 
-#: xepub/preferences.py:15 xepub/preferences.py:240
+#: xepub/preferences.py:15 xepub/preferences.py:251
 msgid "Translate"
 msgstr ""
 
-#: xepub/preferences.py:16 xepub/preferences.py:239
+#: xepub/preferences.py:16 xepub/preferences.py:250
 msgid "Encyclopedia"
 msgstr ""
 
-#: xepub/preferences.py:29 xepub/window.py:150
+#: xepub/preferences.py:29 xepub/window.py:154
 msgid "Preferences"
 msgstr ""
 
@@ -99,251 +99,263 @@ msgid "Search Engines"
 msgstr ""
 
 #: xepub/preferences.py:60
+msgid "System Theme"
+msgstr ""
+
+#: xepub/preferences.py:61
 msgid "Light"
 msgstr ""
 
-#: xepub/preferences.py:60
+#: xepub/preferences.py:62
 msgid "Sepia"
 msgstr ""
 
-#: xepub/preferences.py:60
+#: xepub/preferences.py:63
 msgid "Dark"
 msgstr ""
 
-#: xepub/preferences.py:70
-msgid "Use book styling"
-msgstr ""
-
-#: xepub/preferences.py:71
+#: xepub/preferences.py:74
 msgid "Theme"
 msgstr ""
 
-#: xepub/preferences.py:72
-msgid "Page margins"
+#: xepub/preferences.py:75
+msgid "Prefer dark theme"
 msgstr ""
 
-#: xepub/preferences.py:73
+#: xepub/preferences.py:76
+msgid "Page margins (px)"
+msgstr ""
+
+#: xepub/preferences.py:77
 msgid "Zoom (%)"
 msgstr ""
 
-#: xepub/preferences.py:85
+#: xepub/preferences.py:78
+msgid "Use book styling"
+msgstr ""
+
+#: xepub/preferences.py:93
 msgid "Left"
 msgstr ""
 
-#: xepub/preferences.py:85
+#: xepub/preferences.py:93
 msgid "Justified"
 msgstr ""
 
-#: xepub/preferences.py:88
+#: xepub/preferences.py:96
 msgid "Font family"
 msgstr ""
 
-#: xepub/preferences.py:89
-msgid "Font size"
+#: xepub/preferences.py:97
+msgid "Font size (px)"
 msgstr ""
 
-#: xepub/preferences.py:90
-msgid "Line spacing"
+#: xepub/preferences.py:98
+msgid "Line spacing (px)"
 msgstr ""
 
-#: xepub/preferences.py:91
+#: xepub/preferences.py:99
 msgid "Alignment"
 msgstr ""
 
-#: xepub/preferences.py:94
+#: xepub/preferences.py:102
 msgid "Custom typography"
 msgstr ""
 
-#: xepub/preferences.py:108
+#: xepub/preferences.py:117
 msgid "Reset to Defaults"
 msgstr ""
 
-#: xepub/preferences.py:146
+#: xepub/preferences.py:157
 msgid "Search engines used for selected words"
 msgstr ""
 
-#: xepub/preferences.py:162
+#: xepub/preferences.py:173
 msgid "Add"
 msgstr ""
 
-#: xepub/preferences.py:163
+#: xepub/preferences.py:174
 msgid "Edit"
 msgstr ""
 
-#: xepub/preferences.py:164
+#: xepub/preferences.py:175
 msgid "Remove"
 msgstr ""
 
-#: xepub/preferences.py:232
+#: xepub/preferences.py:243
 msgid "Search Engine"
 msgstr ""
 
-#: xepub/preferences.py:235 xepub/window.py:1074
+#: xepub/preferences.py:246 xepub/window.py:1129
 msgid "Save"
 msgstr ""
 
-#: xepub/preferences.py:241
+#: xepub/preferences.py:252
 msgid "Other"
 msgstr ""
 
-#: xepub/preferences.py:247
+#: xepub/preferences.py:258
 msgid "Type"
 msgstr ""
 
-#: xepub/preferences.py:249
+#: xepub/preferences.py:260
 msgid "Name"
 msgstr ""
 
-#: xepub/preferences.py:251
+#: xepub/preferences.py:262
 msgid "URL"
 msgstr ""
 
-#: xepub/preferences.py:253
+#: xepub/preferences.py:264
 #, python-brace-format
 msgid "Use {text} where the selected text should appear."
 msgstr ""
 
-#: xepub/window.py:151
+#: xepub/window.py:155
 msgid "Book Information"
 msgstr ""
 
-#: xepub/window.py:152
+#: xepub/window.py:156
 msgid "About"
 msgstr ""
 
-#: xepub/window.py:153
+#: xepub/window.py:157
 msgid "Quit"
 msgstr ""
 
-#: xepub/window.py:170
+#: xepub/window.py:174
+msgid "No chapters"
+msgstr ""
+
+#: xepub/window.py:182
 msgid "No annotations"
 msgstr ""
 
-#: xepub/window.py:178
+#: xepub/window.py:190
 msgid "No bookmarks"
 msgstr ""
 
-#: xepub/window.py:181
+#: xepub/window.py:193
 msgid "Search this book"
 msgstr ""
 
-#: xepub/window.py:190
+#: xepub/window.py:202
 msgid "Search options"
 msgstr ""
 
-#: xepub/window.py:197
+#: xepub/window.py:209
 msgid "Enter search terms"
 msgstr ""
 
-#: xepub/window.py:200
+#: xepub/window.py:212
 msgid "No results"
 msgstr ""
 
-#: xepub/window.py:315
+#: xepub/window.py:328
 msgid "Bookmark"
 msgstr ""
 
-#: xepub/window.py:320
+#: xepub/window.py:333
 msgid "Remove bookmark"
 msgstr ""
 
-#: xepub/window.py:395
+#: xepub/window.py:409
 msgid "Delete annotation"
 msgstr ""
 
-#: xepub/window.py:461
+#: xepub/window.py:504
 msgid "Could not open book"
 msgstr ""
 
-#: xepub/window.py:535
+#: xepub/window.py:579
 msgid "Open external link?"
 msgstr ""
 
-#: xepub/window.py:537
+#: xepub/window.py:581
 msgid "Open in browser"
 msgstr ""
 
-#: xepub/window.py:846
+#: xepub/window.py:900
 #, python-format
 msgid "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
 msgstr ""
 
-#: xepub/window.py:937
+#: xepub/window.py:992
 msgid "Go Back"
 msgstr ""
 
-#: xepub/window.py:944
+#: xepub/window.py:999
 msgid "Add bookmark"
 msgstr ""
 
-#: xepub/window.py:1072
+#: xepub/window.py:1127
 msgid "Annotation"
 msgstr ""
 
-#: xepub/window.py:1076
+#: xepub/window.py:1131
 msgid "Yellow"
 msgstr ""
 
-#: xepub/window.py:1077
+#: xepub/window.py:1132
 msgid "Pink"
 msgstr ""
 
-#: xepub/window.py:1078
+#: xepub/window.py:1133
 msgid "Blue"
 msgstr ""
 
-#: xepub/window.py:1079
+#: xepub/window.py:1134
 msgid "Green"
 msgstr ""
 
-#: xepub/window.py:1100
+#: xepub/window.py:1155
 msgid "Highlight color"
 msgstr ""
 
-#: xepub/window.py:1102
+#: xepub/window.py:1157
 msgid "Note"
 msgstr ""
 
-#: xepub/window.py:1180
+#: xepub/window.py:1235
 msgid "All chapters"
 msgstr ""
 
-#: xepub/window.py:1182
+#: xepub/window.py:1237
 msgid "Current chapter"
 msgstr ""
 
-#: xepub/window.py:1188
+#: xepub/window.py:1243
 msgid "Case sensitive"
 msgstr ""
 
-#: xepub/window.py:1189
+#: xepub/window.py:1244
 msgid "Whole words only"
 msgstr ""
 
-#: xepub/window.py:1411
+#: xepub/window.py:1467
 msgid "Title"
 msgstr ""
 
-#: xepub/window.py:1411
+#: xepub/window.py:1467
 msgid "Author"
 msgstr ""
 
-#: xepub/window.py:1411
+#: xepub/window.py:1467
 msgid "Language"
 msgstr ""
 
-#: xepub/window.py:1412
+#: xepub/window.py:1468
 msgid "Publisher"
 msgstr ""
 
-#: xepub/window.py:1412
+#: xepub/window.py:1468
 msgid "Identifier"
 msgstr ""
 
-#: xepub/window.py:1412
+#: xepub/window.py:1468
 msgid "Description"
 msgstr ""
 
-#: xepub/window.py:1414
+#: xepub/window.py:1470
 msgid "Book information"
 msgstr ""
