@@ -57,10 +57,13 @@ class PreferencesDialog(Gtk.Dialog):
         general = Gtk.Grid(row_spacing=10, column_spacing=12)
         self.publisher = Gtk.Switch(active=self.preferences["publisher"])
         self.theme = Gtk.ComboBoxText()
-        for value in (_("Light"), _("Sepia"), _("Dark")):
-            self.theme.append_text(value)
-        self.theme.set_active(["light", "sepia", "dark"].index(
-            self.preferences["theme"]))
+        for identifier, label in (("system", _("System Theme")),
+                                  ("light", _("Light")),
+                                  ("sepia", _("Sepia")),
+                                  ("dark", _("Dark"))):
+            self.theme.append(identifier, label)
+        self.theme.set_active_id(self.preferences["theme"])
+        self.prefer_dark = Gtk.Switch(active=self.preferences["prefer_dark"])
         self.margin = Gtk.SpinButton.new_with_range(20, 160, 4)
         self.margin.set_value(self.preferences["margin"])
         self.zoom = Gtk.Scale.new_with_range(Gtk.Orientation.HORIZONTAL, 50, 200, 10)
@@ -69,6 +72,7 @@ class PreferencesDialog(Gtk.Dialog):
         self.zoom.set_digits(0)
         for row, (label, widget) in enumerate((
                                                (_("Theme"), self.theme),
+                                               (_("Prefer dark theme"), self.prefer_dark),
                                                (_("Page margins (px)"), self.margin),
                                                (_("Zoom (%)"), self.zoom),
                                                (_("Use book styling"), self.publisher))):
@@ -102,6 +106,7 @@ class PreferencesDialog(Gtk.Dialog):
 
         self.publisher.connect("notify::active", self._publisher_changed)
         self.theme.connect("changed", self._reading_changed)
+        self.prefer_dark.connect("notify::active", self._reading_changed)
         self.margin.connect("value-changed", self._reading_changed)
         self.zoom.connect("value-changed", self._reading_changed)
         self.font.connect("font-set", self._reading_changed)
@@ -126,7 +131,8 @@ class PreferencesDialog(Gtk.Dialog):
             "line_height": self.line_height.get_value(),
             "margin": int(self.margin.get_value()),
             "zoom": self.zoom.get_value() / 100,
-            "theme": ["light", "sepia", "dark"][self.theme.get_active()],
+            "theme": self.theme.get_active_id(),
+            "prefer_dark": self.prefer_dark.get_active(),
             "alignment": ["left", "justify"][self.align.get_active()],
             "publisher": self.publisher.get_active(),
         }
@@ -134,7 +140,8 @@ class PreferencesDialog(Gtk.Dialog):
 
     def _reset_reading(self, _button):
         defaults = self.defaults
-        self.theme.set_active(["light", "sepia", "dark"].index(defaults["theme"]))
+        self.theme.set_active_id(defaults["theme"])
+        self.prefer_dark.set_active(defaults["prefer_dark"])
         self.margin.set_value(defaults["margin"])
         self.zoom.set_value(defaults["zoom"] * 100)
         self.font.set_font(defaults["font"])

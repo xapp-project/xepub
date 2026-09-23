@@ -30,7 +30,8 @@ _ = l10n("xepub")
 class ReaderWindow(Gtk.ApplicationWindow):
     DEFAULTS = {
         "font": "Serif", "size": 20, "line_height": 1.55, "margin": 64,
-        "alignment": "justify", "theme": "light", "publisher": True, "zoom": 1.0,
+        "alignment": "justify", "theme": "system", "prefer_dark": False,
+        "publisher": True, "zoom": 1.0,
     }
 
     def __init__(self, application):
@@ -77,6 +78,7 @@ class ReaderWindow(Gtk.ApplicationWindow):
         self.store = StateStore()
         self.preferences = dict(self.DEFAULTS)
         self.preferences.update(self.store.preferences)
+        self._apply_application_theme()
         self._build_webview()
         self._build_ui()
         self._building_ui = False
@@ -577,26 +579,32 @@ class ReaderWindow(Gtk.ApplicationWindow):
         if dialog.run() == Gtk.ResponseType.OK: Gio.AppInfo.launch_default_for_uri(uri, None)
         dialog.destroy()
 
+    def _apply_application_theme(self):
+        Gtk.Settings.get_default().set_property(
+            "gtk-application-prefer-dark-theme", self.preferences["prefer_dark"])
+
+    def _reader_colors(self):
+        palettes = {
+            "light": ("#fdfdfd", "#222222", "#3d5f91"),
+            "sepia": ("#eee2c6", "#4a3826", "#765f4c"),
+            "dark": ("#1e1e1e", "#f0f0f0", "#8ab4f8"),
+        }
+        theme = self.preferences["theme"]
+        if theme in palettes:
+            return palettes[theme]
+        context = self.get_style_context()
+        bg_found, background = context.lookup_color("theme_bg_color")
+        fg_found, foreground = context.lookup_color("theme_fg_color")
+        if not bg_found:
+            background = context.get_background_color(Gtk.StateFlags.NORMAL)
+        if not fg_found:
+            foreground = context.get_color(Gtk.StateFlags.NORMAL)
+        return background.to_string(), foreground.to_string(), "#5c6f91"
+
     def reading_css(self):
         p = self.preferences
-        # Sepia uses a custom page palette but the surrounding GTK interface
-        # belongs to the light theme variant.
-        Gtk.Settings.get_default().set_property(
-            "gtk-application-prefer-dark-theme", p["theme"] == "dark")
-        if p["theme"] == "sepia":
-            colors = ("#eee2c6", "#4a3826")
-        else:
-            # Ask GTK to load the selected variant, then use the theme's own
-            # colors for the reading surface rather than maintaining a second
-            # light/dark palette inside the application.
-            context = self.get_style_context()
-            bg_found, background = context.lookup_color("theme_bg_color")
-            fg_found, foreground = context.lookup_color("theme_fg_color")
-            if not bg_found:
-                background = context.get_background_color(Gtk.StateFlags.NORMAL)
-            if not fg_found:
-                foreground = context.get_color(Gtk.StateFlags.NORMAL)
-            colors = (background.to_string(), foreground.to_string())
+        self._apply_application_theme()
+        colors = self._reader_colors()
         typography = "" if p["publisher"] else (
             f"font-family:{p['font']} !important; font-size:{p['size']}px !important; "
             f"line-height:{p['line_height']} !important; text-align:{p['alignment']} !important;")
@@ -613,7 +621,7 @@ body {{ margin:0 {p['margin']}px !important; box-sizing:border-box;
  column-width:calc(100vw - {p['margin']*2}px); column-gap:{p['margin']*2}px; column-fill:auto;
  padding:{max(24,p['margin']//2)}px 0 !important;
  {typography} }}
-img, svg {{ max-width:100%; max-height:90vh; object-fit:contain; }} a {{ color:#5c6f91; }}
+img, svg {{ max-width:100%; max-height:90vh; object-fit:contain; }} a {{ color:{colors[2]}; }}
 pre, table {{ max-width:100%; overflow-wrap:anywhere; }} {reader_style}
 .xepub-annotation {{ border-radius:2px; box-decoration-break:clone; -webkit-box-decoration-break:clone; }}
 .xepub-annotation[data-color="yellow"] {{ background:rgba(255,224,0,.58) !important; }}
@@ -1418,6 +1426,7 @@ pre, table {{ max-width:100%; overflow-wrap:anywhere; }} {reader_style}
     def _preferences_changed(self, values):
         fraction = (self.current_page - 1) / max(1, self.page_count - 1)
         self.preferences.update(values)
+        self._apply_application_theme()
         self.store.preferences.update(self.preferences)
         self.store.save()
         if self.book:
