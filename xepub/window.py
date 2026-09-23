@@ -150,13 +150,16 @@ class ReaderWindow(Gtk.ApplicationWindow):
         builder.get_object("previous_button").connect("clicked", lambda _b: self.previous_page())
         builder.get_object("next_button").connect("clicked", lambda _b: self.next_page())
         menu_button = builder.get_object("menu_button")
-        menu = Gio.Menu()
+        menu = Gtk.Menu()
         for label, action in ((_("Preferences"), "win.preferences"),
                               (_("Book Information"), "win.info"),
                               (_("About"), "win.about"),
                               (_("Quit"), "app.quit")):
-            menu.append(label, action)
-        menu_button.set_menu_model(menu)
+            item = Gtk.MenuItem.new_with_label(label)
+            item.set_action_name(action)
+            menu.append(item)
+        menu.show_all()
+        menu_button.set_popup(menu)
 
         self.sidebar = builder.get_object("sidebar")
         self.toc_model = Gtk.TreeStore(str, str)
