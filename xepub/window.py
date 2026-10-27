@@ -864,8 +864,12 @@ pre, table {{ max-width:100%; overflow-wrap:anywhere; }} {reader_style}
                 ("metadata::xepub::progress", str(overall)),
                 ("metadata::xepub::title", self.book.metadata.get("title", "")),
                 ("metadata::xepub::author", self.book.metadata.get("creator", ""))):
-            epub_file.set_attribute_string(
-                attribute, value, Gio.FileQueryInfoFlags.NONE, None)
+            try:
+                epub_file.set_attribute_string(
+                    attribute, value, Gio.FileQueryInfoFlags.NONE, None)
+            except GLib.Error:
+                # Not supported everywhere
+                break
 
     def _remember_location(self):
         if not self.book:
