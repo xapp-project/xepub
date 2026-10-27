@@ -1,3 +1,9 @@
+xepub (1.0.3) adrien; urgency=medium
+
+  * Set file attributes in a try/catch
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 27 Oct 2026 12:47:13 +0000
+
 xepub (1.0.2) adrien; urgency=medium
 
   [ Butterfly ]
