@@ -1,0 +1,361 @@
+# Albanian translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-09-23 12:47+0100\n"
+"PO-Revision-Date: 2026-09-24 23:07+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
+msgid "Book Reader"
+msgstr "Lexues Libri"
+
+#: data/xepub.desktop.in:3
+msgid "Read EPUB books"
+msgstr "Lexoni libra EPUB"
+
+#: data/xepub.desktop.in:10
+msgid "ebook;book;reader;EPUB;"
+msgstr "libër elektronik; libër; lexues; EPUB;"
+
+#: xepub/window.ui:20 xepub/window.py:168 xepub/window.py:220
+msgid "Contents"
+msgstr "Përmbajtja"
+
+#: xepub/window.ui:40 xepub/window.py:221
+msgid "Bookmarks"
+msgstr "Faqeshënuesit"
+
+#: xepub/window.ui:60 xepub/window.py:223
+msgid "Annotations"
+msgstr "Shënime"
+
+#: xepub/window.ui:80 xepub/window.py:222
+msgid "Search"
+msgstr "Kërko"
+
+#: xepub/window.ui:130
+msgid "Next page"
+msgstr "Faqja tjetër"
+
+#: xepub/window.ui:149
+msgid "Previous page"
+msgstr "Faqja e mëparshme"
+
+#: xepub/window.ui:242
+msgid "No book open"
+msgstr "Asnjë libër i hapur"
+
+#: xepub/window.ui:255 xepub/main.py:59
+msgid "Open a Book…"
+msgstr "Hap një Libër…"
+
+#: xepub/main.py:60
+msgid "Open"
+msgstr "Hap"
+
+#: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
+#: xepub/window.py:1128
+msgid "Cancel"
+msgstr "Anulo"
+
+#: xepub/main.py:61
+msgid "EPUB books"
+msgstr "Libra EPUB"
+
+#: xepub/preferences.py:14 xepub/preferences.py:249
+msgid "Dictionary"
+msgstr "Fjalor"
+
+#: xepub/preferences.py:15 xepub/preferences.py:251
+msgid "Translate"
+msgstr "Përkthe"
+
+#: xepub/preferences.py:16 xepub/preferences.py:250
+msgid "Encyclopedia"
+msgstr "Enciklopedi"
+
+#: xepub/preferences.py:29 xepub/window.py:154
+msgid "Preferences"
+msgstr "Preferencat"
+
+#: xepub/preferences.py:49
+msgid "Reading"
+msgstr "Lexim"
+
+#: xepub/preferences.py:50
+msgid "Search Engines"
+msgstr "Motorët e kërkimit"
+
+#: xepub/preferences.py:60
+msgid "System Theme"
+msgstr "Tema dhe Sistem"
+
+#: xepub/preferences.py:61
+msgid "Light"
+msgstr "Dritë"
+
+#: xepub/preferences.py:62
+msgid "Sepia"
+msgstr "Sepia"
+
+#: xepub/preferences.py:63
+msgid "Dark"
+msgstr "E rrën"
+
+#: xepub/preferences.py:74
+msgid "Theme"
+msgstr "Tema"
+
+#: xepub/preferences.py:75
+msgid "Prefer dark theme"
+msgstr "Preferoj temën e tyre"
+
+#: xepub/preferences.py:76
+msgid "Page margins (px)"
+msgstr "Margjinat e faqeve (px)"
+
+#: xepub/preferences.py:77
+msgid "Zoom (%)"
+msgstr "Zmadhimi (%)"
+
+#: xepub/preferences.py:78
+msgid "Use book styling"
+msgstr "Përdorni stilimin e librit"
+
+#: xepub/preferences.py:93
+msgid "Left"
+msgstr "Majtas"
+
+#: xepub/preferences.py:93
+msgid "Justified"
+msgstr "I justifikuar"
+
+#: xepub/preferences.py:96
+msgid "Font family"
+msgstr "Familja e shkronjave"
+
+#: xepub/preferences.py:97
+msgid "Font size (px)"
+msgstr "Madhësia e shkronjave (px)"
+
+#: xepub/preferences.py:98
+msgid "Line spacing (px)"
+msgstr "Hapësira midis rreshtave (px)"
+
+#: xepub/preferences.py:99
+msgid "Alignment"
+msgstr "Rreshtimi"
+
+#: xepub/preferences.py:102
+msgid "Custom typography"
+msgstr "Tipografi e personalizuar"
+
+#: xepub/preferences.py:117
+msgid "Reset to Defaults"
+msgstr "Rivendos në Cilësimet Parazgjedhëse"
+
+#: xepub/preferences.py:157
+msgid "Search engines used for selected words"
+msgstr "Motorët e kërkimit të përdorur për fjalët e zgjedhura"
+
+#: xepub/preferences.py:173
+msgid "Add"
+msgstr "Shto"
+
+#: xepub/preferences.py:174
+msgid "Edit"
+msgstr "Modifiko"
+
+#: xepub/preferences.py:175
+msgid "Remove"
+msgstr "Hiq"
+
+#: xepub/preferences.py:243
+msgid "Search Engine"
+msgstr "Motor kërkimi"
+
+#: xepub/preferences.py:246 xepub/window.py:1129
+msgid "Save"
+msgstr "Ruaj"
+
+#: xepub/preferences.py:252
+msgid "Other"
+msgstr "Të tjera"
+
+#: xepub/preferences.py:258
+msgid "Type"
+msgstr "Lloji"
+
+#: xepub/preferences.py:260
+msgid "Name"
+msgstr "Emri"
+
+#: xepub/preferences.py:262
+msgid "URL"
+msgstr "URL-ja"
+
+#: xepub/preferences.py:264
+#, python-brace-format
+msgid "Use {text} where the selected text should appear."
+msgstr "Përdor {text} aty ku duhet të shfaqet teksti i përzgjedhur."
+
+#: xepub/window.py:155
+msgid "Book Information"
+msgstr "Informacion mbi librin"
+
+#: xepub/window.py:156
+msgid "About"
+msgstr "Rreth"
+
+#: xepub/window.py:157
+msgid "Quit"
+msgstr "Dil"
+
+#: xepub/window.py:174
+msgid "No chapters"
+msgstr "Pa kapituj"
+
+#: xepub/window.py:182
+msgid "No annotations"
+msgstr "Pa shënime"
+
+#: xepub/window.py:190
+msgid "No bookmarks"
+msgstr "Pa faqeshënues"
+
+#: xepub/window.py:193
+msgid "Search this book"
+msgstr "Kërko në këtë libër"
+
+#: xepub/window.py:202
+msgid "Search options"
+msgstr "Opsionet e kërkimit"
+
+#: xepub/window.py:209
+msgid "Enter search terms"
+msgstr "Fut termat e kërkimit"
+
+#: xepub/window.py:212
+msgid "No results"
+msgstr "Asnjë rezultat"
+
+#: xepub/window.py:328
+msgid "Bookmark"
+msgstr "Shënues"
+
+#: xepub/window.py:333
+msgid "Remove bookmark"
+msgstr "Hiq faqeshënuesin"
+
+#: xepub/window.py:409
+msgid "Delete annotation"
+msgstr "Fshi shënimin"
+
+#: xepub/window.py:504
+msgid "Could not open book"
+msgstr "Nuk mund të jetë libri i lumturisë"
+
+#: xepub/window.py:579
+msgid "Open external link?"
+msgstr "Të hapet lidhja e jashtme?"
+
+#: xepub/window.py:581
+msgid "Open in browser"
+msgstr "Hap në shfletues"
+
+#: xepub/window.py:900
+#, python-format
+msgid "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
+msgstr "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
+
+#: xepub/window.py:992
+msgid "Go Back"
+msgstr "Kthehu prapa"
+
+#: xepub/window.py:999
+msgid "Add bookmark"
+msgstr "Shto faqeshënues"
+
+#: xepub/window.py:1127
+msgid "Annotation"
+msgstr "Shënim"
+
+#: xepub/window.py:1131
+msgid "Yellow"
+msgstr "E verdhë"
+
+#: xepub/window.py:1132
+msgid "Pink"
+msgstr "Rozë"
+
+#: xepub/window.py:1133
+msgid "Blue"
+msgstr "Blu"
+
+#: xepub/window.py:1134
+msgid "Green"
+msgstr "Jeshile"
+
+#: xepub/window.py:1155
+msgid "Highlight color"
+msgstr "Ngjyra e theksimit"
+
+#: xepub/window.py:1157
+msgid "Note"
+msgstr "Shënim"
+
+#: xepub/window.py:1235
+msgid "All chapters"
+msgstr "Të gjitha kapitujt"
+
+#: xepub/window.py:1237
+msgid "Current chapter"
+msgstr "Kapitulli aktual"
+
+#: xepub/window.py:1243
+msgid "Case sensitive"
+msgstr "Ndjeshmëri e ndjeshme ndaj madhësive të mëdha dhe të vogla"
+
+#: xepub/window.py:1244
+msgid "Whole words only"
+msgstr "Vetëm fjalë të plota"
+
+#: xepub/window.py:1467
+msgid "Title"
+msgstr "Titulli"
+
+#: xepub/window.py:1467
+msgid "Author"
+msgstr "Autori"
+
+#: xepub/window.py:1467
+msgid "Language"
+msgstr "Gjuha"
+
+#: xepub/window.py:1468
+msgid "Publisher"
+msgstr "Botues"
+
+#: xepub/window.py:1468
+msgid "Identifier"
+msgstr "Identifikues"
+
+#: xepub/window.py:1468
+msgid "Description"
+msgstr "Përshkrimi"
+
+#: xepub/window.py:1470
+msgid "Book information"
+msgstr "Informacion mbi librin"

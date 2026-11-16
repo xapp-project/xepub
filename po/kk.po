@@ -1,0 +1,362 @@
+# Kazakh translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-09-23 12:47+0100\n"
+"PO-Revision-Date: 2026-10-15 20:57+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <Unknown>\n"
+"Language-Team: Kazakh <kk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: kk\n"
+
+#: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
+msgid "Book Reader"
+msgstr "Кітап оқу қолданбасы"
+
+#: data/xepub.desktop.in:3
+msgid "Read EPUB books"
+msgstr "EPUB кітаптарын оқу"
+
+#: data/xepub.desktop.in:10
+msgid "ebook;book;reader;EPUB;"
+msgstr "ebook;book;reader;EPUB;"
+
+#: xepub/window.ui:20 xepub/window.py:168 xepub/window.py:220
+msgid "Contents"
+msgstr "Мазмұны"
+
+#: xepub/window.ui:40 xepub/window.py:221
+msgid "Bookmarks"
+msgstr "Бетбелгілер"
+
+#: xepub/window.ui:60 xepub/window.py:223
+msgid "Annotations"
+msgstr "Аңдатпалар"
+
+#: xepub/window.ui:80 xepub/window.py:222
+msgid "Search"
+msgstr "Іздеу"
+
+#: xepub/window.ui:130
+msgid "Next page"
+msgstr "Келесі бет"
+
+#: xepub/window.ui:149
+msgid "Previous page"
+msgstr "Алдыңғы бет"
+
+#: xepub/window.ui:242
+msgid "No book open"
+msgstr "Ашық кітап жоқ"
+
+#: xepub/window.ui:255 xepub/main.py:59
+msgid "Open a Book…"
+msgstr "Кітапты ашу…"
+
+#: xepub/main.py:60
+msgid "Open"
+msgstr "Ашу"
+
+#: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
+#: xepub/window.py:1128
+msgid "Cancel"
+msgstr "Бас тарту"
+
+#: xepub/main.py:61
+msgid "EPUB books"
+msgstr "EPUB кітаптары"
+
+#: xepub/preferences.py:14 xepub/preferences.py:249
+msgid "Dictionary"
+msgstr "Сөздік"
+
+#: xepub/preferences.py:15 xepub/preferences.py:251
+msgid "Translate"
+msgstr "Аудару"
+
+#: xepub/preferences.py:16 xepub/preferences.py:250
+msgid "Encyclopedia"
+msgstr "Энциклопедия"
+
+#: xepub/preferences.py:29 xepub/window.py:154
+msgid "Preferences"
+msgstr "Баптаулар"
+
+#: xepub/preferences.py:49
+msgid "Reading"
+msgstr "Оқу"
+
+#: xepub/preferences.py:50
+msgid "Search Engines"
+msgstr "Іздеу жүйелері"
+
+#: xepub/preferences.py:60
+msgid "System Theme"
+msgstr "Жүйелік тема"
+
+#: xepub/preferences.py:61
+msgid "Light"
+msgstr "Ашық"
+
+#: xepub/preferences.py:62
+msgid "Sepia"
+msgstr "Сепия"
+
+#: xepub/preferences.py:63
+msgid "Dark"
+msgstr "Қараңғы"
+
+#: xepub/preferences.py:74
+msgid "Theme"
+msgstr "Тема"
+
+#: xepub/preferences.py:75
+msgid "Prefer dark theme"
+msgstr "Қараңғы теманы қалау"
+
+#: xepub/preferences.py:76
+msgid "Page margins (px)"
+msgstr "Беттің шет өрістері (пикс)"
+
+#: xepub/preferences.py:77
+msgid "Zoom (%)"
+msgstr "Масштабы (%)"
+
+#: xepub/preferences.py:78
+msgid "Use book styling"
+msgstr "Кітаптық стильді қолдану"
+
+#: xepub/preferences.py:93
+msgid "Left"
+msgstr "Сол жақ"
+
+#: xepub/preferences.py:93
+msgid "Justified"
+msgstr "Енімен тураланған"
+
+#: xepub/preferences.py:96
+msgid "Font family"
+msgstr "Қаріптер тобы"
+
+#: xepub/preferences.py:97
+msgid "Font size (px)"
+msgstr "Қаріп өлшемі (px)"
+
+#: xepub/preferences.py:98
+msgid "Line spacing (px)"
+msgstr "Жол аралығы (px)"
+
+#: xepub/preferences.py:99
+msgid "Alignment"
+msgstr "Туралау"
+
+#: xepub/preferences.py:102
+msgid "Custom typography"
+msgstr "Пайдаланушылық типография"
+
+#: xepub/preferences.py:117
+msgid "Reset to Defaults"
+msgstr "Бастапқы күйге келтіру"
+
+#: xepub/preferences.py:157
+msgid "Search engines used for selected words"
+msgstr "Таңдалған сөздер үшін пайдаланылатын іздеу қозғалтқыштары"
+
+#: xepub/preferences.py:173
+msgid "Add"
+msgstr "Қосу"
+
+#: xepub/preferences.py:174
+msgid "Edit"
+msgstr "Түзету"
+
+#: xepub/preferences.py:175
+msgid "Remove"
+msgstr "Өшіру"
+
+#: xepub/preferences.py:243
+msgid "Search Engine"
+msgstr "Іздеу қозғалтқышы"
+
+#: xepub/preferences.py:246 xepub/window.py:1129
+msgid "Save"
+msgstr "Сақтау"
+
+#: xepub/preferences.py:252
+msgid "Other"
+msgstr "Басқа"
+
+#: xepub/preferences.py:258
+msgid "Type"
+msgstr "Түрі"
+
+#: xepub/preferences.py:260
+msgid "Name"
+msgstr "Аты"
+
+#: xepub/preferences.py:262
+msgid "URL"
+msgstr "URL"
+
+#: xepub/preferences.py:264
+#, python-brace-format
+msgid "Use {text} where the selected text should appear."
+msgstr "Таңдалған мәтін орналасатын жерде {text} мәнін қолданыңыз."
+
+#: xepub/window.py:155
+msgid "Book Information"
+msgstr "Кітап туралы ақпарат"
+
+#: xepub/window.py:156
+msgid "About"
+msgstr "Осы туралы"
+
+#: xepub/window.py:157
+msgid "Quit"
+msgstr "Шығу"
+
+#: xepub/window.py:174
+msgid "No chapters"
+msgstr "Тараулар жоқ"
+
+#: xepub/window.py:182
+msgid "No annotations"
+msgstr "Аңдатпалар жоқ"
+
+#: xepub/window.py:190
+msgid "No bookmarks"
+msgstr "Бетбелгілер жоқ"
+
+#: xepub/window.py:193
+msgid "Search this book"
+msgstr "Бұл кітаптан іздеу"
+
+#: xepub/window.py:202
+msgid "Search options"
+msgstr "Іздеу опциялары"
+
+#: xepub/window.py:209
+msgid "Enter search terms"
+msgstr "Іздеу терминдерін енгізіңіз"
+
+#: xepub/window.py:212
+msgid "No results"
+msgstr "Нәтижелер жоқ"
+
+#: xepub/window.py:328
+msgid "Bookmark"
+msgstr "Бетбелгі"
+
+#: xepub/window.py:333
+msgid "Remove bookmark"
+msgstr "Бетбелгіні өшіру"
+
+#: xepub/window.py:409
+msgid "Delete annotation"
+msgstr "Аңдатпаны өшіру"
+
+#: xepub/window.py:504
+msgid "Could not open book"
+msgstr "Кітапты ашу мүмкін болмады"
+
+#: xepub/window.py:579
+msgid "Open external link?"
+msgstr "Сыртқы сілтемені ашу керек пе?"
+
+#: xepub/window.py:581
+msgid "Open in browser"
+msgstr "Браузерде ашу"
+
+#: xepub/window.py:900
+#, python-format
+msgid "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
+msgstr "%(chapter)s · %(page)d / %(pages)d бет · %(progress)d%%"
+
+#: xepub/window.py:992
+msgid "Go Back"
+msgstr "Артқа қайту"
+
+#: xepub/window.py:999
+msgid "Add bookmark"
+msgstr "Бетбелгі қосу"
+
+#: xepub/window.py:1127
+msgid "Annotation"
+msgstr "Аңдатпа"
+
+#: xepub/window.py:1131
+msgid "Yellow"
+msgstr "Сары"
+
+#: xepub/window.py:1132
+msgid "Pink"
+msgstr "Қызғылт"
+
+#: xepub/window.py:1133
+msgid "Blue"
+msgstr "Көк"
+
+#: xepub/window.py:1134
+msgid "Green"
+msgstr "Жасыл"
+
+#: xepub/window.py:1155
+msgid "Highlight color"
+msgstr "Ерекшелеу түсі"
+
+#: xepub/window.py:1157
+msgid "Note"
+msgstr "Ескертпе"
+
+#: xepub/window.py:1235
+msgid "All chapters"
+msgstr "Барлық тараулар"
+
+#: xepub/window.py:1237
+msgid "Current chapter"
+msgstr "Ағымдағы тарау"
+
+#: xepub/window.py:1243
+msgid "Case sensitive"
+msgstr "Регистрді ескеру"
+
+#: xepub/window.py:1244
+msgid "Whole words only"
+msgstr "Тек тұтас сөздер"
+
+#: xepub/window.py:1467
+msgid "Title"
+msgstr "Атауы"
+
+#: xepub/window.py:1467
+msgid "Author"
+msgstr "Авторы"
+
+#: xepub/window.py:1467
+msgid "Language"
+msgstr "Тілі"
+
+#: xepub/window.py:1468
+msgid "Publisher"
+msgstr "Баспагер"
+
+#: xepub/window.py:1468
+msgid "Identifier"
+msgstr "Идентификаторы"
+
+#: xepub/window.py:1468
+msgid "Description"
+msgstr "Сипаттамасы"
+
+#: xepub/window.py:1470
+msgid "Book information"
+msgstr "Кітап туралы ақпарат"

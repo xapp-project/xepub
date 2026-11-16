@@ -1,0 +1,361 @@
+# Swedish translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-09-23 12:47+0100\n"
+"PO-Revision-Date: 2026-09-27 09:49+0000\n"
+"Last-Translator: Jan-Olof Svensson <jan-olof.svensson@abc.se>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
+msgid "Book Reader"
+msgstr "Bokläsare"
+
+#: data/xepub.desktop.in:3
+msgid "Read EPUB books"
+msgstr "Läs böcker i EPUB-format"
+
+#: data/xepub.desktop.in:10
+msgid "ebook;book;reader;EPUB;"
+msgstr "e-bok;bok;läsare;EPUB;"
+
+#: xepub/window.ui:20 xepub/window.py:168 xepub/window.py:220
+msgid "Contents"
+msgstr "Innehåll"
+
+#: xepub/window.ui:40 xepub/window.py:221
+msgid "Bookmarks"
+msgstr "Bokmärken"
+
+#: xepub/window.ui:60 xepub/window.py:223
+msgid "Annotations"
+msgstr "Kommentarer"
+
+#: xepub/window.ui:80 xepub/window.py:222
+msgid "Search"
+msgstr "Sök"
+
+#: xepub/window.ui:130
+msgid "Next page"
+msgstr "Nästa sida"
+
+#: xepub/window.ui:149
+msgid "Previous page"
+msgstr "Föregående sida"
+
+#: xepub/window.ui:242
+msgid "No book open"
+msgstr "Ingen bok är öppen"
+
+#: xepub/window.ui:255 xepub/main.py:59
+msgid "Open a Book…"
+msgstr "Öppna en bok…"
+
+#: xepub/main.py:60
+msgid "Open"
+msgstr "Öppna"
+
+#: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
+#: xepub/window.py:1128
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: xepub/main.py:61
+msgid "EPUB books"
+msgstr "EPUB-böcker"
+
+#: xepub/preferences.py:14 xepub/preferences.py:249
+msgid "Dictionary"
+msgstr "Ordbok"
+
+#: xepub/preferences.py:15 xepub/preferences.py:251
+msgid "Translate"
+msgstr "Översätt"
+
+#: xepub/preferences.py:16 xepub/preferences.py:250
+msgid "Encyclopedia"
+msgstr "Uppslagsverk"
+
+#: xepub/preferences.py:29 xepub/window.py:154
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: xepub/preferences.py:49
+msgid "Reading"
+msgstr "Läsning"
+
+#: xepub/preferences.py:50
+msgid "Search Engines"
+msgstr "Sökmotorer"
+
+#: xepub/preferences.py:60
+msgid "System Theme"
+msgstr "Systemtema"
+
+#: xepub/preferences.py:61
+msgid "Light"
+msgstr "Ljust"
+
+#: xepub/preferences.py:62
+msgid "Sepia"
+msgstr "Sepiabrunt"
+
+#: xepub/preferences.py:63
+msgid "Dark"
+msgstr "Mörkt"
+
+#: xepub/preferences.py:74
+msgid "Theme"
+msgstr "Tema"
+
+#: xepub/preferences.py:75
+msgid "Prefer dark theme"
+msgstr "Föredra mörkt tema"
+
+#: xepub/preferences.py:76
+msgid "Page margins (px)"
+msgstr "Sidmarginaler (px)"
+
+#: xepub/preferences.py:77
+msgid "Zoom (%)"
+msgstr "Zoom (%)"
+
+#: xepub/preferences.py:78
+msgid "Use book styling"
+msgstr "Använd bokens formatering"
+
+#: xepub/preferences.py:93
+msgid "Left"
+msgstr "Vänster"
+
+#: xepub/preferences.py:93
+msgid "Justified"
+msgstr "Marginaljusterad"
+
+#: xepub/preferences.py:96
+msgid "Font family"
+msgstr "Teckensnittsfamilj"
+
+#: xepub/preferences.py:97
+msgid "Font size (px)"
+msgstr "Teckenstorlek (px)"
+
+#: xepub/preferences.py:98
+msgid "Line spacing (px)"
+msgstr "Radavstånd (px)"
+
+#: xepub/preferences.py:99
+msgid "Alignment"
+msgstr "Justering"
+
+#: xepub/preferences.py:102
+msgid "Custom typography"
+msgstr "Anpassad typografi"
+
+#: xepub/preferences.py:117
+msgid "Reset to Defaults"
+msgstr "Återställ till standardvärden"
+
+#: xepub/preferences.py:157
+msgid "Search engines used for selected words"
+msgstr "Sökmotorer som används för utvalda ord"
+
+#: xepub/preferences.py:173
+msgid "Add"
+msgstr "Lägg till"
+
+#: xepub/preferences.py:174
+msgid "Edit"
+msgstr "Ändra"
+
+#: xepub/preferences.py:175
+msgid "Remove"
+msgstr "Ta bort"
+
+#: xepub/preferences.py:243
+msgid "Search Engine"
+msgstr "Sökmotor"
+
+#: xepub/preferences.py:246 xepub/window.py:1129
+msgid "Save"
+msgstr "Spara"
+
+#: xepub/preferences.py:252
+msgid "Other"
+msgstr "Övrigt"
+
+#: xepub/preferences.py:258
+msgid "Type"
+msgstr "Typ"
+
+#: xepub/preferences.py:260
+msgid "Name"
+msgstr "Namn"
+
+#: xepub/preferences.py:262
+msgid "URL"
+msgstr "URL"
+
+#: xepub/preferences.py:264
+#, python-brace-format
+msgid "Use {text} where the selected text should appear."
+msgstr "Använd {text} där den markerade texten ska visas."
+
+#: xepub/window.py:155
+msgid "Book Information"
+msgstr "Information om boken"
+
+#: xepub/window.py:156
+msgid "About"
+msgstr "Om"
+
+#: xepub/window.py:157
+msgid "Quit"
+msgstr "Avsluta"
+
+#: xepub/window.py:174
+msgid "No chapters"
+msgstr "Inga kapitel"
+
+#: xepub/window.py:182
+msgid "No annotations"
+msgstr "Inga kommentarer"
+
+#: xepub/window.py:190
+msgid "No bookmarks"
+msgstr "Inga bokmärken"
+
+#: xepub/window.py:193
+msgid "Search this book"
+msgstr "Sök i den här boken"
+
+#: xepub/window.py:202
+msgid "Search options"
+msgstr "Sökalternativ"
+
+#: xepub/window.py:209
+msgid "Enter search terms"
+msgstr "Ange sökord"
+
+#: xepub/window.py:212
+msgid "No results"
+msgstr "Inga sökträffar"
+
+#: xepub/window.py:328
+msgid "Bookmark"
+msgstr "Bokmärk"
+
+#: xepub/window.py:333
+msgid "Remove bookmark"
+msgstr "Ta bort bokmärke"
+
+#: xepub/window.py:409
+msgid "Delete annotation"
+msgstr "Ta bort kommentar"
+
+#: xepub/window.py:504
+msgid "Could not open book"
+msgstr "Kunde inte öppna boken"
+
+#: xepub/window.py:579
+msgid "Open external link?"
+msgstr "Öppna extern länk?"
+
+#: xepub/window.py:581
+msgid "Open in browser"
+msgstr "Öppna i webbläsaren"
+
+#: xepub/window.py:900
+#, python-format
+msgid "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
+msgstr "%(chapter)s · Sida %(page)d av %(pages)d · %(progress)d%%"
+
+#: xepub/window.py:992
+msgid "Go Back"
+msgstr "Gå tillbaka"
+
+#: xepub/window.py:999
+msgid "Add bookmark"
+msgstr "Lägg till bokmärke"
+
+#: xepub/window.py:1127
+msgid "Annotation"
+msgstr "Kommentar"
+
+#: xepub/window.py:1131
+msgid "Yellow"
+msgstr "Gul"
+
+#: xepub/window.py:1132
+msgid "Pink"
+msgstr "Rosa"
+
+#: xepub/window.py:1133
+msgid "Blue"
+msgstr "Blå"
+
+#: xepub/window.py:1134
+msgid "Green"
+msgstr "Grön"
+
+#: xepub/window.py:1155
+msgid "Highlight color"
+msgstr "Markeringsfärg"
+
+#: xepub/window.py:1157
+msgid "Note"
+msgstr "Anteckning"
+
+#: xepub/window.py:1235
+msgid "All chapters"
+msgstr "Alla kapitel"
+
+#: xepub/window.py:1237
+msgid "Current chapter"
+msgstr "Nuvarande kapitel"
+
+#: xepub/window.py:1243
+msgid "Case sensitive"
+msgstr "Skiftlägeskänslig"
+
+#: xepub/window.py:1244
+msgid "Whole words only"
+msgstr "Endast hela ord"
+
+#: xepub/window.py:1467
+msgid "Title"
+msgstr "Titel"
+
+#: xepub/window.py:1467
+msgid "Author"
+msgstr "Författare"
+
+#: xepub/window.py:1467
+msgid "Language"
+msgstr "Språk"
+
+#: xepub/window.py:1468
+msgid "Publisher"
+msgstr "Utgivare"
+
+#: xepub/window.py:1468
+msgid "Identifier"
+msgstr "Identifierare"
+
+#: xepub/window.py:1468
+msgid "Description"
+msgstr "Beskrivning"
+
+#: xepub/window.py:1470
+msgid "Book information"
+msgstr "Information om boken"

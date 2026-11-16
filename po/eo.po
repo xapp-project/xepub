@@ -1,0 +1,361 @@
+# Esperanto translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-09-23 12:47+0100\n"
+"PO-Revision-Date: 2026-11-08 21:52+0000\n"
+"Last-Translator: Piet Coppens <Unknown>\n"
+"Language-Team: Esperanto <eo@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
+msgid "Book Reader"
+msgstr "Libro-legilo"
+
+#: data/xepub.desktop.in:3
+msgid "Read EPUB books"
+msgstr "Legi epub-librojn"
+
+#: data/xepub.desktop.in:10
+msgid "ebook;book;reader;EPUB;"
+msgstr "bitlibro;libro;legilo;epub;"
+
+#: xepub/window.ui:20 xepub/window.py:168 xepub/window.py:220
+msgid "Contents"
+msgstr "Enhavo"
+
+#: xepub/window.ui:40 xepub/window.py:221
+msgid "Bookmarks"
+msgstr "Legosignoj"
+
+#: xepub/window.ui:60 xepub/window.py:223
+msgid "Annotations"
+msgstr "Prinotoj"
+
+#: xepub/window.ui:80 xepub/window.py:222
+msgid "Search"
+msgstr "Serĉi"
+
+#: xepub/window.ui:130
+msgid "Next page"
+msgstr "Sekva paĝo"
+
+#: xepub/window.ui:149
+msgid "Previous page"
+msgstr "Antaŭa paĝo"
+
+#: xepub/window.ui:242
+msgid "No book open"
+msgstr "Neniu libro malfermita"
+
+#: xepub/window.ui:255 xepub/main.py:59
+msgid "Open a Book…"
+msgstr "Malfermi libron…"
+
+#: xepub/main.py:60
+msgid "Open"
+msgstr "Malfermi"
+
+#: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
+#: xepub/window.py:1128
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: xepub/main.py:61
+msgid "EPUB books"
+msgstr "Epub-libroj"
+
+#: xepub/preferences.py:14 xepub/preferences.py:249
+msgid "Dictionary"
+msgstr "Vortaro"
+
+#: xepub/preferences.py:15 xepub/preferences.py:251
+msgid "Translate"
+msgstr "Traduki"
+
+#: xepub/preferences.py:16 xepub/preferences.py:250
+msgid "Encyclopedia"
+msgstr "Enciklopedio"
+
+#: xepub/preferences.py:29 xepub/window.py:154
+msgid "Preferences"
+msgstr "Agordoj"
+
+#: xepub/preferences.py:49
+msgid "Reading"
+msgstr "Legado"
+
+#: xepub/preferences.py:50
+msgid "Search Engines"
+msgstr "Serĉiloj"
+
+#: xepub/preferences.py:60
+msgid "System Theme"
+msgstr "Sistemetoso"
+
+#: xepub/preferences.py:61
+msgid "Light"
+msgstr "Hele"
+
+#: xepub/preferences.py:62
+msgid "Sepia"
+msgstr "Sepikolore"
+
+#: xepub/preferences.py:63
+msgid "Dark"
+msgstr "Malhele"
+
+#: xepub/preferences.py:74
+msgid "Theme"
+msgstr "Etoso"
+
+#: xepub/preferences.py:75
+msgid "Prefer dark theme"
+msgstr "Preferi malhelan etoson"
+
+#: xepub/preferences.py:76
+msgid "Page margins (px)"
+msgstr "Paĝaj marĝenoj (px)"
+
+#: xepub/preferences.py:77
+msgid "Zoom (%)"
+msgstr "Zomi (%)"
+
+#: xepub/preferences.py:78
+msgid "Use book styling"
+msgstr "Uzi librostiligon"
+
+#: xepub/preferences.py:93
+msgid "Left"
+msgstr "Maldekstre"
+
+#: xepub/preferences.py:93
+msgid "Justified"
+msgstr "Ĝisrandigite"
+
+#: xepub/preferences.py:96
+msgid "Font family"
+msgstr "Tiparfamilio"
+
+#: xepub/preferences.py:97
+msgid "Font size (px)"
+msgstr "Tipargrando (px)"
+
+#: xepub/preferences.py:98
+msgid "Line spacing (px)"
+msgstr "Interlinia distanco (px)"
+
+#: xepub/preferences.py:99
+msgid "Alignment"
+msgstr "Ĝisrandigo"
+
+#: xepub/preferences.py:102
+msgid "Custom typography"
+msgstr "Propra tipografio"
+
+#: xepub/preferences.py:117
+msgid "Reset to Defaults"
+msgstr "Reagordi al defaŭltoj"
+
+#: xepub/preferences.py:157
+msgid "Search engines used for selected words"
+msgstr "Serĉiloj uzitaj por elektitaj vortoj"
+
+#: xepub/preferences.py:173
+msgid "Add"
+msgstr "Aldoni"
+
+#: xepub/preferences.py:174
+msgid "Edit"
+msgstr "Redakti"
+
+#: xepub/preferences.py:175
+msgid "Remove"
+msgstr "Forigi"
+
+#: xepub/preferences.py:243
+msgid "Search Engine"
+msgstr "Serĉilo"
+
+#: xepub/preferences.py:246 xepub/window.py:1129
+msgid "Save"
+msgstr "Konservi"
+
+#: xepub/preferences.py:252
+msgid "Other"
+msgstr "Alia"
+
+#: xepub/preferences.py:258
+msgid "Type"
+msgstr "Tipo"
+
+#: xepub/preferences.py:260
+msgid "Name"
+msgstr "Nomo"
+
+#: xepub/preferences.py:262
+msgid "URL"
+msgstr "Retadreso"
+
+#: xepub/preferences.py:264
+#, python-brace-format
+msgid "Use {text} where the selected text should appear."
+msgstr "Uzu {text}, kie la elektita teksto devus aperi."
+
+#: xepub/window.py:155
+msgid "Book Information"
+msgstr "Libraj informoj"
+
+#: xepub/window.py:156
+msgid "About"
+msgstr "Pri"
+
+#: xepub/window.py:157
+msgid "Quit"
+msgstr "Forlasi"
+
+#: xepub/window.py:174
+msgid "No chapters"
+msgstr "Ne ĉapitroj"
+
+#: xepub/window.py:182
+msgid "No annotations"
+msgstr "Ne prinotoj"
+
+#: xepub/window.py:190
+msgid "No bookmarks"
+msgstr "Ne legosignoj"
+
+#: xepub/window.py:193
+msgid "Search this book"
+msgstr "Serĉi ĉi tiun libron"
+
+#: xepub/window.py:202
+msgid "Search options"
+msgstr "Serĉaj opcioj"
+
+#: xepub/window.py:209
+msgid "Enter search terms"
+msgstr "Enigi serĉajn termojn"
+
+#: xepub/window.py:212
+msgid "No results"
+msgstr "Ne rezultoj"
+
+#: xepub/window.py:328
+msgid "Bookmark"
+msgstr "Legosigno"
+
+#: xepub/window.py:333
+msgid "Remove bookmark"
+msgstr "Forigi legosignon"
+
+#: xepub/window.py:409
+msgid "Delete annotation"
+msgstr "Forigi prinoton"
+
+#: xepub/window.py:504
+msgid "Could not open book"
+msgstr "Ne eblas malfermi libron"
+
+#: xepub/window.py:579
+msgid "Open external link?"
+msgstr "Ĉu malfermi eksteran ligilon?"
+
+#: xepub/window.py:581
+msgid "Open in browser"
+msgstr "Malfermi en retumilo"
+
+#: xepub/window.py:900
+#, python-format
+msgid "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
+msgstr "%(chapter)s · Paĝo %(page)d el %(pages)d · %(progress)d%%"
+
+#: xepub/window.py:992
+msgid "Go Back"
+msgstr "Reiri"
+
+#: xepub/window.py:999
+msgid "Add bookmark"
+msgstr "Aldoni legosignon"
+
+#: xepub/window.py:1127
+msgid "Annotation"
+msgstr "Prinoto"
+
+#: xepub/window.py:1131
+msgid "Yellow"
+msgstr "Flava"
+
+#: xepub/window.py:1132
+msgid "Pink"
+msgstr "Roza"
+
+#: xepub/window.py:1133
+msgid "Blue"
+msgstr "Blua"
+
+#: xepub/window.py:1134
+msgid "Green"
+msgstr "Verda"
+
+#: xepub/window.py:1155
+msgid "Highlight color"
+msgstr "Hela koloro"
+
+#: xepub/window.py:1157
+msgid "Note"
+msgstr "Noto"
+
+#: xepub/window.py:1235
+msgid "All chapters"
+msgstr "Ĉiuj ĉapitroj"
+
+#: xepub/window.py:1237
+msgid "Current chapter"
+msgstr "Nuna ĉapitro"
+
+#: xepub/window.py:1243
+msgid "Case sensitive"
+msgstr "Usklecodistinge"
+
+#: xepub/window.py:1244
+msgid "Whole words only"
+msgstr "Nur kompletaj vortoj"
+
+#: xepub/window.py:1467
+msgid "Title"
+msgstr "Titolo"
+
+#: xepub/window.py:1467
+msgid "Author"
+msgstr "Aŭtoro"
+
+#: xepub/window.py:1467
+msgid "Language"
+msgstr "Lingvo"
+
+#: xepub/window.py:1468
+msgid "Publisher"
+msgstr "Eldonisto"
+
+#: xepub/window.py:1468
+msgid "Identifier"
+msgstr "Identigilo"
+
+#: xepub/window.py:1468
+msgid "Description"
+msgstr "Priskribo"
+
+#: xepub/window.py:1470
+msgid "Book information"
+msgstr "Libraj informoj"

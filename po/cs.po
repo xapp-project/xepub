@@ -1,0 +1,361 @@
+# Czech translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-09-23 12:47+0100\n"
+"PO-Revision-Date: 2026-09-24 17:44+0000\n"
+"Last-Translator: Marek Hladík <mhladik@seznam.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
+msgid "Book Reader"
+msgstr "Čtení knih"
+
+#: data/xepub.desktop.in:3
+msgid "Read EPUB books"
+msgstr "Čtěte knihy EPUB"
+
+#: data/xepub.desktop.in:10
+msgid "ebook;book;reader;EPUB;"
+msgstr "e-kniha;kniha;čtečka;EPUB"
+
+#: xepub/window.ui:20 xepub/window.py:168 xepub/window.py:220
+msgid "Contents"
+msgstr "Obsah"
+
+#: xepub/window.ui:40 xepub/window.py:221
+msgid "Bookmarks"
+msgstr "Záložky"
+
+#: xepub/window.ui:60 xepub/window.py:223
+msgid "Annotations"
+msgstr "Anotace"
+
+#: xepub/window.ui:80 xepub/window.py:222
+msgid "Search"
+msgstr "Hledat"
+
+#: xepub/window.ui:130
+msgid "Next page"
+msgstr "Další stránka"
+
+#: xepub/window.ui:149
+msgid "Previous page"
+msgstr "Předchozí stránka"
+
+#: xepub/window.ui:242
+msgid "No book open"
+msgstr "Žádná otevřená kniha"
+
+#: xepub/window.ui:255 xepub/main.py:59
+msgid "Open a Book…"
+msgstr "Otevřít knihu…"
+
+#: xepub/main.py:60
+msgid "Open"
+msgstr "Otevřít"
+
+#: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
+#: xepub/window.py:1128
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: xepub/main.py:61
+msgid "EPUB books"
+msgstr "Knihy EPUB"
+
+#: xepub/preferences.py:14 xepub/preferences.py:249
+msgid "Dictionary"
+msgstr "Slovník"
+
+#: xepub/preferences.py:15 xepub/preferences.py:251
+msgid "Translate"
+msgstr "Překlad"
+
+#: xepub/preferences.py:16 xepub/preferences.py:250
+msgid "Encyclopedia"
+msgstr "Encyklopedie"
+
+#: xepub/preferences.py:29 xepub/window.py:154
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: xepub/preferences.py:49
+msgid "Reading"
+msgstr "Čtení"
+
+#: xepub/preferences.py:50
+msgid "Search Engines"
+msgstr "Vyhledávače"
+
+#: xepub/preferences.py:60
+msgid "System Theme"
+msgstr "Systémový motiv"
+
+#: xepub/preferences.py:61
+msgid "Light"
+msgstr "Světlý"
+
+#: xepub/preferences.py:62
+msgid "Sepia"
+msgstr "Sépiový"
+
+#: xepub/preferences.py:63
+msgid "Dark"
+msgstr "Tmavý"
+
+#: xepub/preferences.py:74
+msgid "Theme"
+msgstr "Vzhled"
+
+#: xepub/preferences.py:75
+msgid "Prefer dark theme"
+msgstr "Preferovat tmavý motiv"
+
+#: xepub/preferences.py:76
+msgid "Page margins (px)"
+msgstr "Okraje stránky (px)"
+
+#: xepub/preferences.py:77
+msgid "Zoom (%)"
+msgstr "Zvětšení (%)"
+
+#: xepub/preferences.py:78
+msgid "Use book styling"
+msgstr "Použít styl knihy"
+
+#: xepub/preferences.py:93
+msgid "Left"
+msgstr "Vlevo"
+
+#: xepub/preferences.py:93
+msgid "Justified"
+msgstr "Do bloku"
+
+#: xepub/preferences.py:96
+msgid "Font family"
+msgstr "Rodina fontu"
+
+#: xepub/preferences.py:97
+msgid "Font size (px)"
+msgstr "Velikost písma (px)"
+
+#: xepub/preferences.py:98
+msgid "Line spacing (px)"
+msgstr "Řádkování (px)"
+
+#: xepub/preferences.py:99
+msgid "Alignment"
+msgstr "Zarovnání"
+
+#: xepub/preferences.py:102
+msgid "Custom typography"
+msgstr "Vlastní typografie"
+
+#: xepub/preferences.py:117
+msgid "Reset to Defaults"
+msgstr "Výchozí hodnoty"
+
+#: xepub/preferences.py:157
+msgid "Search engines used for selected words"
+msgstr "Vyhledávače použité pro vybraná slova"
+
+#: xepub/preferences.py:173
+msgid "Add"
+msgstr "Přidat"
+
+#: xepub/preferences.py:174
+msgid "Edit"
+msgstr "Upravit"
+
+#: xepub/preferences.py:175
+msgid "Remove"
+msgstr "Odebrat"
+
+#: xepub/preferences.py:243
+msgid "Search Engine"
+msgstr "Vyhledávač"
+
+#: xepub/preferences.py:246 xepub/window.py:1129
+msgid "Save"
+msgstr "Uložit"
+
+#: xepub/preferences.py:252
+msgid "Other"
+msgstr "Ostatní"
+
+#: xepub/preferences.py:258
+msgid "Type"
+msgstr "Typ"
+
+#: xepub/preferences.py:260
+msgid "Name"
+msgstr "Název"
+
+#: xepub/preferences.py:262
+msgid "URL"
+msgstr "Adresa URL"
+
+#: xepub/preferences.py:264
+#, python-brace-format
+msgid "Use {text} where the selected text should appear."
+msgstr "Použijte {text} tam, kde se má zobrazit vybraný text."
+
+#: xepub/window.py:155
+msgid "Book Information"
+msgstr "Informace o knize"
+
+#: xepub/window.py:156
+msgid "About"
+msgstr "O aplikaci"
+
+#: xepub/window.py:157
+msgid "Quit"
+msgstr "Ukončit"
+
+#: xepub/window.py:174
+msgid "No chapters"
+msgstr "Bez kapitol"
+
+#: xepub/window.py:182
+msgid "No annotations"
+msgstr "Bez anotací"
+
+#: xepub/window.py:190
+msgid "No bookmarks"
+msgstr "Bez záložek"
+
+#: xepub/window.py:193
+msgid "Search this book"
+msgstr "Hledat v této knize"
+
+#: xepub/window.py:202
+msgid "Search options"
+msgstr "Možnosti vyhledávání"
+
+#: xepub/window.py:209
+msgid "Enter search terms"
+msgstr "Zadejte hledané výrazy"
+
+#: xepub/window.py:212
+msgid "No results"
+msgstr "Žádné výsledky"
+
+#: xepub/window.py:328
+msgid "Bookmark"
+msgstr "Záložka"
+
+#: xepub/window.py:333
+msgid "Remove bookmark"
+msgstr "Odstranit záložku"
+
+#: xepub/window.py:409
+msgid "Delete annotation"
+msgstr "Odstranit anotaci"
+
+#: xepub/window.py:504
+msgid "Could not open book"
+msgstr "Knihu se nepodařilo otevřít"
+
+#: xepub/window.py:579
+msgid "Open external link?"
+msgstr "Otevřít externí odkaz?"
+
+#: xepub/window.py:581
+msgid "Open in browser"
+msgstr "Otevřít v prohlížeči"
+
+#: xepub/window.py:900
+#, python-format
+msgid "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
+msgstr "%(chapter)s · Stránka %(page)d z %(pages)d · %(progress)d%%"
+
+#: xepub/window.py:992
+msgid "Go Back"
+msgstr "Jít zpět"
+
+#: xepub/window.py:999
+msgid "Add bookmark"
+msgstr "Přidat záložku"
+
+#: xepub/window.py:1127
+msgid "Annotation"
+msgstr "Anotace"
+
+#: xepub/window.py:1131
+msgid "Yellow"
+msgstr "Žlutá"
+
+#: xepub/window.py:1132
+msgid "Pink"
+msgstr "Růžová"
+
+#: xepub/window.py:1133
+msgid "Blue"
+msgstr "Modrá"
+
+#: xepub/window.py:1134
+msgid "Green"
+msgstr "Zelená"
+
+#: xepub/window.py:1155
+msgid "Highlight color"
+msgstr "Barva zvýraznění"
+
+#: xepub/window.py:1157
+msgid "Note"
+msgstr "Poznámka"
+
+#: xepub/window.py:1235
+msgid "All chapters"
+msgstr "Všechny kapitoly"
+
+#: xepub/window.py:1237
+msgid "Current chapter"
+msgstr "Aktuální kapitola"
+
+#: xepub/window.py:1243
+msgid "Case sensitive"
+msgstr "Rozlišovat VELKÁ/malá písmena"
+
+#: xepub/window.py:1244
+msgid "Whole words only"
+msgstr "Pouze celá slova"
+
+#: xepub/window.py:1467
+msgid "Title"
+msgstr "Název"
+
+#: xepub/window.py:1467
+msgid "Author"
+msgstr "Autor"
+
+#: xepub/window.py:1467
+msgid "Language"
+msgstr "Jazyk"
+
+#: xepub/window.py:1468
+msgid "Publisher"
+msgstr "Vydavatel"
+
+#: xepub/window.py:1468
+msgid "Identifier"
+msgstr "Identifikátor"
+
+#: xepub/window.py:1468
+msgid "Description"
+msgstr "Popis"
+
+#: xepub/window.py:1470
+msgid "Book information"
+msgstr "Informace o knize"

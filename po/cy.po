@@ -1,0 +1,362 @@
+# Welsh translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-09-23 12:47+0100\n"
+"PO-Revision-Date: 2026-09-25 16:24+0000\n"
+"Last-Translator: Rhoslyn Prys <Unknown>\n"
+"Language-Team: Welsh <cy@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: cy\n"
+
+#: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
+msgid "Book Reader"
+msgstr "Darllenydd Llyfrau"
+
+#: data/xepub.desktop.in:3
+msgid "Read EPUB books"
+msgstr "Darllenwch lyfrau EPUB"
+
+#: data/xepub.desktop.in:10
+msgid "ebook;book;reader;EPUB;"
+msgstr "e-lyfr;llyfr;darllenydd;EPUB;"
+
+#: xepub/window.ui:20 xepub/window.py:168 xepub/window.py:220
+msgid "Contents"
+msgstr "Cynnwys"
+
+#: xepub/window.ui:40 xepub/window.py:221
+msgid "Bookmarks"
+msgstr "Nodau Tudalen"
+
+#: xepub/window.ui:60 xepub/window.py:223
+msgid "Annotations"
+msgstr "Anodiadau"
+
+#: xepub/window.ui:80 xepub/window.py:222
+msgid "Search"
+msgstr "Chwilio"
+
+#: xepub/window.ui:130
+msgid "Next page"
+msgstr "Tudalen nesaf"
+
+#: xepub/window.ui:149
+msgid "Previous page"
+msgstr "Tudalen flaenorol"
+
+#: xepub/window.ui:242
+msgid "No book open"
+msgstr "Dim llyfr ar agor"
+
+#: xepub/window.ui:255 xepub/main.py:59
+msgid "Open a Book…"
+msgstr "Agor Llyfr..."
+
+#: xepub/main.py:60
+msgid "Open"
+msgstr "Agor"
+
+#: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
+#: xepub/window.py:1128
+msgid "Cancel"
+msgstr "Diddymu"
+
+#: xepub/main.py:61
+msgid "EPUB books"
+msgstr "Llyfrau EPUB"
+
+#: xepub/preferences.py:14 xepub/preferences.py:249
+msgid "Dictionary"
+msgstr "Geiriadur"
+
+#: xepub/preferences.py:15 xepub/preferences.py:251
+msgid "Translate"
+msgstr "Cyfieithu"
+
+#: xepub/preferences.py:16 xepub/preferences.py:250
+msgid "Encyclopedia"
+msgstr "Gwyddoniadur"
+
+#: xepub/preferences.py:29 xepub/window.py:154
+msgid "Preferences"
+msgstr "Dewisiadau"
+
+#: xepub/preferences.py:49
+msgid "Reading"
+msgstr "Yn Darllen"
+
+#: xepub/preferences.py:50
+msgid "Search Engines"
+msgstr "Peiriannau Chwilio"
+
+#: xepub/preferences.py:60
+msgid "System Theme"
+msgstr "Thema System"
+
+#: xepub/preferences.py:61
+msgid "Light"
+msgstr "Golau"
+
+#: xepub/preferences.py:62
+msgid "Sepia"
+msgstr "Sepia"
+
+#: xepub/preferences.py:63
+msgid "Dark"
+msgstr "Tywyll"
+
+#: xepub/preferences.py:74
+msgid "Theme"
+msgstr "Thema"
+
+#: xepub/preferences.py:75
+msgid "Prefer dark theme"
+msgstr "Dewis thema dywyll"
+
+#: xepub/preferences.py:76
+msgid "Page margins (px)"
+msgstr "Ymylon tudalennau (px)"
+
+#: xepub/preferences.py:77
+msgid "Zoom (%)"
+msgstr "Chwyddo (%)"
+
+#: xepub/preferences.py:78
+msgid "Use book styling"
+msgstr "Defnyddio arddull llyfrau"
+
+#: xepub/preferences.py:93
+msgid "Left"
+msgstr "Chwith"
+
+#: xepub/preferences.py:93
+msgid "Justified"
+msgstr "Unioni"
+
+#: xepub/preferences.py:96
+msgid "Font family"
+msgstr "Teulu ffont"
+
+#: xepub/preferences.py:97
+msgid "Font size (px)"
+msgstr "Maint ffont (px)"
+
+#: xepub/preferences.py:98
+msgid "Line spacing (px)"
+msgstr "Bylchiad llinellau (px)"
+
+#: xepub/preferences.py:99
+msgid "Alignment"
+msgstr "Aliniad"
+
+#: xepub/preferences.py:102
+msgid "Custom typography"
+msgstr "Teipograffeg cyfaddas"
+
+#: xepub/preferences.py:117
+msgid "Reset to Defaults"
+msgstr "Ailosod i'r Rhagosodedig"
+
+#: xepub/preferences.py:157
+msgid "Search engines used for selected words"
+msgstr "Peiriannau chwilio sy'n cael eu defnyddio ar gyfer geiriau dewisedig"
+
+#: xepub/preferences.py:173
+msgid "Add"
+msgstr "Ychwanegu"
+
+#: xepub/preferences.py:174
+msgid "Edit"
+msgstr "Golygu"
+
+#: xepub/preferences.py:175
+msgid "Remove"
+msgstr "Tynnu"
+
+#: xepub/preferences.py:243
+msgid "Search Engine"
+msgstr "Peiriant Chwilio"
+
+#: xepub/preferences.py:246 xepub/window.py:1129
+msgid "Save"
+msgstr "Cadw"
+
+#: xepub/preferences.py:252
+msgid "Other"
+msgstr "Arall"
+
+#: xepub/preferences.py:258
+msgid "Type"
+msgstr "Math"
+
+#: xepub/preferences.py:260
+msgid "Name"
+msgstr "Enw"
+
+#: xepub/preferences.py:262
+msgid "URL"
+msgstr "URL"
+
+#: xepub/preferences.py:264
+#, python-brace-format
+msgid "Use {text} where the selected text should appear."
+msgstr "Defnyddiwch {text} lle dylai'r testun dewisedig ymddangos."
+
+#: xepub/window.py:155
+msgid "Book Information"
+msgstr "Manylion Llyfr"
+
+#: xepub/window.py:156
+msgid "About"
+msgstr "Ynghylch"
+
+#: xepub/window.py:157
+msgid "Quit"
+msgstr "Gorffen"
+
+#: xepub/window.py:174
+msgid "No chapters"
+msgstr "Dim penodau"
+
+#: xepub/window.py:182
+msgid "No annotations"
+msgstr "Dim anodiadau"
+
+#: xepub/window.py:190
+msgid "No bookmarks"
+msgstr "Dim nodau tudalen"
+
+#: xepub/window.py:193
+msgid "Search this book"
+msgstr "Chwilio'r llyfr hwn"
+
+#: xepub/window.py:202
+msgid "Search options"
+msgstr "Dewisiadau chwilio"
+
+#: xepub/window.py:209
+msgid "Enter search terms"
+msgstr "Rhoi termau chwilio"
+
+#: xepub/window.py:212
+msgid "No results"
+msgstr "Dim canlyniadau"
+
+#: xepub/window.py:328
+msgid "Bookmark"
+msgstr "Nod tudalen"
+
+#: xepub/window.py:333
+msgid "Remove bookmark"
+msgstr "Tynnu nod tudalen"
+
+#: xepub/window.py:409
+msgid "Delete annotation"
+msgstr "Dileu anodiad"
+
+#: xepub/window.py:504
+msgid "Could not open book"
+msgstr "Methu agor llyfr"
+
+#: xepub/window.py:579
+msgid "Open external link?"
+msgstr "Agor dolen allanol?"
+
+#: xepub/window.py:581
+msgid "Open in browser"
+msgstr "Agor mewn porwr"
+
+#: xepub/window.py:900
+#, python-format
+msgid "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
+msgstr "%(chapter)s · Tudalen %(page)d o %(pages)d · %(progress)d %%"
+
+#: xepub/window.py:992
+msgid "Go Back"
+msgstr "Nôl"
+
+#: xepub/window.py:999
+msgid "Add bookmark"
+msgstr "Gosod nod tudalen"
+
+#: xepub/window.py:1127
+msgid "Annotation"
+msgstr "Anodiad"
+
+#: xepub/window.py:1131
+msgid "Yellow"
+msgstr "Melyn"
+
+#: xepub/window.py:1132
+msgid "Pink"
+msgstr "Pinc"
+
+#: xepub/window.py:1133
+msgid "Blue"
+msgstr "Glas"
+
+#: xepub/window.py:1134
+msgid "Green"
+msgstr "Gwyrdd"
+
+#: xepub/window.py:1155
+msgid "Highlight color"
+msgstr "Lliw amlygu"
+
+#: xepub/window.py:1157
+msgid "Note"
+msgstr "Nodyn"
+
+#: xepub/window.py:1235
+msgid "All chapters"
+msgstr "Pob pennod"
+
+#: xepub/window.py:1237
+msgid "Current chapter"
+msgstr "Pennod bresennol"
+
+#: xepub/window.py:1243
+msgid "Case sensitive"
+msgstr "Sensitif i faint"
+
+#: xepub/window.py:1244
+msgid "Whole words only"
+msgstr "Geiriau llawn yn unig"
+
+#: xepub/window.py:1467
+msgid "Title"
+msgstr "Teitl"
+
+#: xepub/window.py:1467
+msgid "Author"
+msgstr "Awdur"
+
+#: xepub/window.py:1467
+msgid "Language"
+msgstr "Iaith"
+
+#: xepub/window.py:1468
+msgid "Publisher"
+msgstr "Cyhoeddwr"
+
+#: xepub/window.py:1468
+msgid "Identifier"
+msgstr "Dynodwr"
+
+#: xepub/window.py:1468
+msgid "Description"
+msgstr "Disgrifiad"
+
+#: xepub/window.py:1470
+msgid "Book information"
+msgstr "Manylion llyfr"

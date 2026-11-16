@@ -1,0 +1,361 @@
+# Croatian translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-09-23 12:47+0100\n"
+"PO-Revision-Date: 2026-10-31 08:57+0000\n"
+"Last-Translator: Niko Košćina <nikokoscina@icloud.com>\n"
+"Language-Team: Croatian <hr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
+msgid "Book Reader"
+msgstr "Čitač knjiga"
+
+#: data/xepub.desktop.in:3
+msgid "Read EPUB books"
+msgstr "Čitaj EPUB knjige"
+
+#: data/xepub.desktop.in:10
+msgid "ebook;book;reader;EPUB;"
+msgstr "eknjiga;knjiga;čitač;EPUB;"
+
+#: xepub/window.ui:20 xepub/window.py:168 xepub/window.py:220
+msgid "Contents"
+msgstr "Sadržaj"
+
+#: xepub/window.ui:40 xepub/window.py:221
+msgid "Bookmarks"
+msgstr "Oznake"
+
+#: xepub/window.ui:60 xepub/window.py:223
+msgid "Annotations"
+msgstr "Napomene"
+
+#: xepub/window.ui:80 xepub/window.py:222
+msgid "Search"
+msgstr "Pretraga"
+
+#: xepub/window.ui:130
+msgid "Next page"
+msgstr "Sljedeća stranica"
+
+#: xepub/window.ui:149
+msgid "Previous page"
+msgstr "Prethodna stranica"
+
+#: xepub/window.ui:242
+msgid "No book open"
+msgstr ""
+
+#: xepub/window.ui:255 xepub/main.py:59
+msgid "Open a Book…"
+msgstr "Otvori knjigu..."
+
+#: xepub/main.py:60
+msgid "Open"
+msgstr "Otvori"
+
+#: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
+#: xepub/window.py:1128
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: xepub/main.py:61
+msgid "EPUB books"
+msgstr "EPUB knjige"
+
+#: xepub/preferences.py:14 xepub/preferences.py:249
+msgid "Dictionary"
+msgstr "Rječnik"
+
+#: xepub/preferences.py:15 xepub/preferences.py:251
+msgid "Translate"
+msgstr "Prevedi"
+
+#: xepub/preferences.py:16 xepub/preferences.py:250
+msgid "Encyclopedia"
+msgstr "Enciklopedija"
+
+#: xepub/preferences.py:29 xepub/window.py:154
+msgid "Preferences"
+msgstr "Osobitosti"
+
+#: xepub/preferences.py:49
+msgid "Reading"
+msgstr "Čitanje"
+
+#: xepub/preferences.py:50
+msgid "Search Engines"
+msgstr "Pretraživači"
+
+#: xepub/preferences.py:60
+msgid "System Theme"
+msgstr "Tema sustava"
+
+#: xepub/preferences.py:61
+msgid "Light"
+msgstr "Svjetlo"
+
+#: xepub/preferences.py:62
+msgid "Sepia"
+msgstr "Sipa"
+
+#: xepub/preferences.py:63
+msgid "Dark"
+msgstr "Tamno"
+
+#: xepub/preferences.py:74
+msgid "Theme"
+msgstr "Tema"
+
+#: xepub/preferences.py:75
+msgid "Prefer dark theme"
+msgstr "Koristi tamnu temu"
+
+#: xepub/preferences.py:76
+msgid "Page margins (px)"
+msgstr "Margina stranice (px)"
+
+#: xepub/preferences.py:77
+msgid "Zoom (%)"
+msgstr "Zumiranje (%)"
+
+#: xepub/preferences.py:78
+msgid "Use book styling"
+msgstr ""
+
+#: xepub/preferences.py:93
+msgid "Left"
+msgstr "Lijevo"
+
+#: xepub/preferences.py:93
+msgid "Justified"
+msgstr "Obostrano"
+
+#: xepub/preferences.py:96
+msgid "Font family"
+msgstr "Vrsta slova"
+
+#: xepub/preferences.py:97
+msgid "Font size (px)"
+msgstr "Veličina fonta (px)"
+
+#: xepub/preferences.py:98
+msgid "Line spacing (px)"
+msgstr ""
+
+#: xepub/preferences.py:99
+msgid "Alignment"
+msgstr "Centriranje"
+
+#: xepub/preferences.py:102
+msgid "Custom typography"
+msgstr ""
+
+#: xepub/preferences.py:117
+msgid "Reset to Defaults"
+msgstr "Vrati na izvorno"
+
+#: xepub/preferences.py:157
+msgid "Search engines used for selected words"
+msgstr ""
+
+#: xepub/preferences.py:173
+msgid "Add"
+msgstr "Dodaj"
+
+#: xepub/preferences.py:174
+msgid "Edit"
+msgstr "Uredi"
+
+#: xepub/preferences.py:175
+msgid "Remove"
+msgstr "Ukloni"
+
+#: xepub/preferences.py:243
+msgid "Search Engine"
+msgstr "Tražilica"
+
+#: xepub/preferences.py:246 xepub/window.py:1129
+msgid "Save"
+msgstr "Spremi"
+
+#: xepub/preferences.py:252
+msgid "Other"
+msgstr "Ostalo"
+
+#: xepub/preferences.py:258
+msgid "Type"
+msgstr "Vrsta"
+
+#: xepub/preferences.py:260
+msgid "Name"
+msgstr "Naziv"
+
+#: xepub/preferences.py:262
+msgid "URL"
+msgstr "URL"
+
+#: xepub/preferences.py:264
+#, python-brace-format
+msgid "Use {text} where the selected text should appear."
+msgstr ""
+
+#: xepub/window.py:155
+msgid "Book Information"
+msgstr "Informacija o knjizi"
+
+#: xepub/window.py:156
+msgid "About"
+msgstr "O programu"
+
+#: xepub/window.py:157
+msgid "Quit"
+msgstr "Odustani"
+
+#: xepub/window.py:174
+msgid "No chapters"
+msgstr "Nema poglavlja"
+
+#: xepub/window.py:182
+msgid "No annotations"
+msgstr "Nema zabilješke"
+
+#: xepub/window.py:190
+msgid "No bookmarks"
+msgstr "Nema zabilješka"
+
+#: xepub/window.py:193
+msgid "Search this book"
+msgstr "Pretraži ovaj knjigu"
+
+#: xepub/window.py:202
+msgid "Search options"
+msgstr "Mogućnosti pretrage"
+
+#: xepub/window.py:209
+msgid "Enter search terms"
+msgstr ""
+
+#: xepub/window.py:212
+msgid "No results"
+msgstr "Nema rezultata"
+
+#: xepub/window.py:328
+msgid "Bookmark"
+msgstr "Zabilješka"
+
+#: xepub/window.py:333
+msgid "Remove bookmark"
+msgstr "Ukloni zabilješku"
+
+#: xepub/window.py:409
+msgid "Delete annotation"
+msgstr "Izbriši zabilješku"
+
+#: xepub/window.py:504
+msgid "Could not open book"
+msgstr ""
+
+#: xepub/window.py:579
+msgid "Open external link?"
+msgstr "Otvori vanjsku poveznicu?"
+
+#: xepub/window.py:581
+msgid "Open in browser"
+msgstr "Otvori u pregledniku"
+
+#: xepub/window.py:900
+#, python-format
+msgid "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
+msgstr ""
+
+#: xepub/window.py:992
+msgid "Go Back"
+msgstr "Idi natrag"
+
+#: xepub/window.py:999
+msgid "Add bookmark"
+msgstr "Dodaj zabilješku"
+
+#: xepub/window.py:1127
+msgid "Annotation"
+msgstr "Bilješka"
+
+#: xepub/window.py:1131
+msgid "Yellow"
+msgstr "Žuta"
+
+#: xepub/window.py:1132
+msgid "Pink"
+msgstr "Ružičasta"
+
+#: xepub/window.py:1133
+msgid "Blue"
+msgstr "Plava"
+
+#: xepub/window.py:1134
+msgid "Green"
+msgstr "Zelena"
+
+#: xepub/window.py:1155
+msgid "Highlight color"
+msgstr "Boja istaknutog"
+
+#: xepub/window.py:1157
+msgid "Note"
+msgstr "Napomena"
+
+#: xepub/window.py:1235
+msgid "All chapters"
+msgstr "Sva poglavlja"
+
+#: xepub/window.py:1237
+msgid "Current chapter"
+msgstr "Trenutni poglavlje"
+
+#: xepub/window.py:1243
+msgid "Case sensitive"
+msgstr "Razlikuj slova"
+
+#: xepub/window.py:1244
+msgid "Whole words only"
+msgstr "Samo cijele riječi"
+
+#: xepub/window.py:1467
+msgid "Title"
+msgstr "Naslov"
+
+#: xepub/window.py:1467
+msgid "Author"
+msgstr "Autor"
+
+#: xepub/window.py:1467
+msgid "Language"
+msgstr "Jezik"
+
+#: xepub/window.py:1468
+msgid "Publisher"
+msgstr "Izdavač"
+
+#: xepub/window.py:1468
+msgid "Identifier"
+msgstr "Identifikator"
+
+#: xepub/window.py:1468
+msgid "Description"
+msgstr "Opis"
+
+#: xepub/window.py:1470
+msgid "Book information"
+msgstr "Podaci o knjizi"

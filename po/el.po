@@ -1,0 +1,362 @@
+# Greek translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-09-23 12:47+0100\n"
+"PO-Revision-Date: 2026-11-02 10:45+0000\n"
+"Last-Translator: Dimitris Spentzos <Unknown>\n"
+"Language-Team: Greek <el@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+
+#: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
+msgid "Book Reader"
+msgstr "Εφαρμογή ανάγνωσης βιβλίων"
+
+#: data/xepub.desktop.in:3
+msgid "Read EPUB books"
+msgstr "Διαβάστε βιβλία EPUB"
+
+#: data/xepub.desktop.in:10
+msgid "ebook;book;reader;EPUB;"
+msgstr "προβολή;ανάγνωση;βιβλίο;ebook;book;reader;EPUB;"
+
+#: xepub/window.ui:20 xepub/window.py:168 xepub/window.py:220
+msgid "Contents"
+msgstr "Περιεχόμενα"
+
+#: xepub/window.ui:40 xepub/window.py:221
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#: xepub/window.ui:60 xepub/window.py:223
+msgid "Annotations"
+msgstr "Επισημειώσεις"
+
+#: xepub/window.ui:80 xepub/window.py:222
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: xepub/window.ui:130
+msgid "Next page"
+msgstr "Επόμενη σελίδα"
+
+#: xepub/window.ui:149
+msgid "Previous page"
+msgstr "Προηγούμενη σελίδα"
+
+#: xepub/window.ui:242
+msgid "No book open"
+msgstr "Δεν υπάρχουν ανοικτά βιβλία"
+
+#: xepub/window.ui:255 xepub/main.py:59
+msgid "Open a Book…"
+msgstr "Άνοιγμα βιβλίου…"
+
+#: xepub/main.py:60
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
+#: xepub/window.py:1128
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: xepub/main.py:61
+msgid "EPUB books"
+msgstr "Βιβλία EPUB"
+
+#: xepub/preferences.py:14 xepub/preferences.py:249
+msgid "Dictionary"
+msgstr "Λεξικό"
+
+#: xepub/preferences.py:15 xepub/preferences.py:251
+msgid "Translate"
+msgstr "Μετάφραση"
+
+#: xepub/preferences.py:16 xepub/preferences.py:250
+msgid "Encyclopedia"
+msgstr "Εγκυκλοπαίδεια"
+
+#: xepub/preferences.py:29 xepub/window.py:154
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: xepub/preferences.py:49
+msgid "Reading"
+msgstr "Ανάγνωση"
+
+#: xepub/preferences.py:50
+msgid "Search Engines"
+msgstr "Μηχανές αναζήτησης"
+
+#: xepub/preferences.py:60
+msgid "System Theme"
+msgstr "Θέμα συστήματος"
+
+#: xepub/preferences.py:61
+msgid "Light"
+msgstr "Ανοιχτόχρωμο"
+
+#: xepub/preferences.py:62
+msgid "Sepia"
+msgstr "Σέπια"
+
+#: xepub/preferences.py:63
+msgid "Dark"
+msgstr "Σκουρόχρωμο"
+
+#: xepub/preferences.py:74
+msgid "Theme"
+msgstr "Θέμα"
+
+#: xepub/preferences.py:75
+msgid "Prefer dark theme"
+msgstr "Προτίμηση σκουρόχρωμου θέματος"
+
+#: xepub/preferences.py:76
+msgid "Page margins (px)"
+msgstr "Περιθώρια σελίδων (px)"
+
+#: xepub/preferences.py:77
+msgid "Zoom (%)"
+msgstr "Ζουμ (%)"
+
+#: xepub/preferences.py:78
+msgid "Use book styling"
+msgstr "Χρήση μορφοποίησης βιβλίου"
+
+#: xepub/preferences.py:93
+msgid "Left"
+msgstr "Αριστερά"
+
+#: xepub/preferences.py:93
+msgid "Justified"
+msgstr "Πλήρης"
+
+#: xepub/preferences.py:96
+msgid "Font family"
+msgstr "Οικογένεια γραμματοσειρών"
+
+#: xepub/preferences.py:97
+msgid "Font size (px)"
+msgstr "Μέγεθος γραμματοσειράς (px)"
+
+#: xepub/preferences.py:98
+msgid "Line spacing (px)"
+msgstr "Διάστιχο (px)"
+
+#: xepub/preferences.py:99
+msgid "Alignment"
+msgstr "Στοίχιση"
+
+#: xepub/preferences.py:102
+msgid "Custom typography"
+msgstr "Προσαρμοσμένη τυπογραφία"
+
+#: xepub/preferences.py:117
+msgid "Reset to Defaults"
+msgstr "Επαναφορά προεπιλογών"
+
+#: xepub/preferences.py:157
+msgid "Search engines used for selected words"
+msgstr "Μηχανές αναζήτησης που χρησιμοποιούνται για τις επιλεγμένες λέξεις"
+
+#: xepub/preferences.py:173
+msgid "Add"
+msgstr "Προσθήκη"
+
+#: xepub/preferences.py:174
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: xepub/preferences.py:175
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: xepub/preferences.py:243
+msgid "Search Engine"
+msgstr "Μηχανή αναζήτησης"
+
+#: xepub/preferences.py:246 xepub/window.py:1129
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: xepub/preferences.py:252
+msgid "Other"
+msgstr "Άλλο"
+
+#: xepub/preferences.py:258
+msgid "Type"
+msgstr "Τύπος"
+
+#: xepub/preferences.py:260
+msgid "Name"
+msgstr "Όνομα"
+
+#: xepub/preferences.py:262
+msgid "URL"
+msgstr "URL"
+
+#: xepub/preferences.py:264
+#, python-brace-format
+msgid "Use {text} where the selected text should appear."
+msgstr ""
+"Χρήση του «{text}» όπου θα έπρεπε να εμφανίζεται το επιλεγμένο κείμενο."
+
+#: xepub/window.py:155
+msgid "Book Information"
+msgstr "Πληροφορίες βιβλίου"
+
+#: xepub/window.py:156
+msgid "About"
+msgstr "Πληροφορίες"
+
+#: xepub/window.py:157
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: xepub/window.py:174
+msgid "No chapters"
+msgstr "Δεν υπάρχουν κεφάλαια"
+
+#: xepub/window.py:182
+msgid "No annotations"
+msgstr "Δεν υπάρχουν επισημειώσεις"
+
+#: xepub/window.py:190
+msgid "No bookmarks"
+msgstr "Δεν υπάρχουν σελιδοδείκτες"
+
+#: xepub/window.py:193
+msgid "Search this book"
+msgstr "Αναζήτηση σε αυτό το βιβλίο"
+
+#: xepub/window.py:202
+msgid "Search options"
+msgstr "Επιλογές αναζήτησης"
+
+#: xepub/window.py:209
+msgid "Enter search terms"
+msgstr "Εισαγάγετε όρους αναζήτησης"
+
+#: xepub/window.py:212
+msgid "No results"
+msgstr "Δεν βρέθηκαν αποτελέσματα"
+
+#: xepub/window.py:328
+msgid "Bookmark"
+msgstr "Σελιδοδείκτης"
+
+#: xepub/window.py:333
+msgid "Remove bookmark"
+msgstr "Αφαίρεση σελιδοδείκτη"
+
+#: xepub/window.py:409
+msgid "Delete annotation"
+msgstr "Διαγραφή επισημείωσης"
+
+#: xepub/window.py:504
+msgid "Could not open book"
+msgstr "Δεν ήταν δυνατό το άνοιγμα του βιβλίου"
+
+#: xepub/window.py:579
+msgid "Open external link?"
+msgstr "Άνοιγμα εξωτερικού συνδέσμου;"
+
+#: xepub/window.py:581
+msgid "Open in browser"
+msgstr "Άνοιγμα στο πρόγραμμα περιήγησης"
+
+#: xepub/window.py:900
+#, python-format
+msgid "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
+msgstr "%(chapter)s · Σελίδα %(page)d από %(pages)d · %(progress)d%%"
+
+#: xepub/window.py:992
+msgid "Go Back"
+msgstr "Επιστροφή"
+
+#: xepub/window.py:999
+msgid "Add bookmark"
+msgstr "Προσθήκη σελιδοδείκτη"
+
+#: xepub/window.py:1127
+msgid "Annotation"
+msgstr "Επισημείωση"
+
+#: xepub/window.py:1131
+msgid "Yellow"
+msgstr "Κίτρινο"
+
+#: xepub/window.py:1132
+msgid "Pink"
+msgstr "Ροζ"
+
+#: xepub/window.py:1133
+msgid "Blue"
+msgstr "Μπλε"
+
+#: xepub/window.py:1134
+msgid "Green"
+msgstr "Πράσινο"
+
+#: xepub/window.py:1155
+msgid "Highlight color"
+msgstr "Χρώμα επισήμανσης"
+
+#: xepub/window.py:1157
+msgid "Note"
+msgstr "Σημείωση"
+
+#: xepub/window.py:1235
+msgid "All chapters"
+msgstr "Όλα τα κεφάλαια"
+
+#: xepub/window.py:1237
+msgid "Current chapter"
+msgstr "Τρέχον κεφάλαιο"
+
+#: xepub/window.py:1243
+msgid "Case sensitive"
+msgstr "Διάκριση πεζών-κεφαλαίων"
+
+#: xepub/window.py:1244
+msgid "Whole words only"
+msgstr "Μόνο ολόκληρες λέξεις"
+
+#: xepub/window.py:1467
+msgid "Title"
+msgstr "Τίτλος"
+
+#: xepub/window.py:1467
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: xepub/window.py:1467
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: xepub/window.py:1468
+msgid "Publisher"
+msgstr "Εκδότης"
+
+#: xepub/window.py:1468
+msgid "Identifier"
+msgstr "Αναγνωριστικό"
+
+#: xepub/window.py:1468
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: xepub/window.py:1470
+msgid "Book information"
+msgstr "Πληροφορίες βιβλίου"
