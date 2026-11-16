@@ -1,3 +1,9 @@
+xepub (1.0.4) adrien; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 16 Nov 2026 14:23:48 +0000
+
 xepub (1.0.3) adrien; urgency=medium
 
   * Set file attributes in a try/catch
