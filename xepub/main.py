@@ -19,7 +19,7 @@ class XepubApplication(Gtk.Application):
         super().__init__(application_id=APP_ID, flags=Gio.ApplicationFlags.HANDLES_OPEN)
         self.windows_by_path = {}
         setproctitle("xepub")
-        GLib.set_prgname(APP_ID)
+        GLib.set_prgname("xepub")
         GLib.set_application_name(_("Book Reader"))
 
     def do_startup(self):
