@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2026-09-23 12:47+0100\n"
-"PO-Revision-Date: 2026-09-23 12:30+0000\n"
+"PO-Revision-Date: 2026-11-19 23:34+0000\n"
 "Last-Translator: Pjotr12345 <Unknown>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
-"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"X-Launchpad-Export-Date: 2026-11-24 12:02+0000\n"
+"X-Generator: Launchpad (build 012091084314157d19ae714f55ef4c582ff0feb5)\n"
 
 #: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
 msgid "Book Reader"
@@ -55,7 +55,7 @@ msgstr "Vorige bladzijde"
 
 #: xepub/window.ui:242
 msgid "No book open"
-msgstr "Geen geopende boeken"
+msgstr "Geen geopend boek"
 
 #: xepub/window.ui:255 xepub/main.py:59
 msgid "Open a Book…"
@@ -124,11 +124,11 @@ msgstr "Donker thema heeft voorkeur"
 
 #: xepub/preferences.py:76
 msgid "Page margins (px)"
-msgstr "Bladzijdekantlijnen (px)"
+msgstr "Bladzijdekantlijnen (beeldpunten)"
 
 #: xepub/preferences.py:77
 msgid "Zoom (%)"
-msgstr "Vergroten (%)"
+msgstr "Vergrotingsniveau (%)"
 
 #: xepub/preferences.py:78
 msgid "Use book styling"
@@ -148,11 +148,11 @@ msgstr "Lettertypefamilie"
 
 #: xepub/preferences.py:97
 msgid "Font size (px)"
-msgstr "Lettertypegrootte (px)"
+msgstr "Lettertypegrootte (beeldpunten)"
 
 #: xepub/preferences.py:98
 msgid "Line spacing (px)"
-msgstr "Regelafstand (px)"
+msgstr "Regelafstand (beeldpunten)"
 
 #: xepub/preferences.py:99
 msgid "Alignment"
@@ -314,7 +314,7 @@ msgstr "Markeerkleur"
 
 #: xepub/window.py:1157
 msgid "Note"
-msgstr "Notitie"
+msgstr "Aantekening"
 
 #: xepub/window.py:1235
 msgid "All chapters"
@@ -350,7 +350,7 @@ msgstr "Uitgever"
 
 #: xepub/window.py:1468
 msgid "Identifier"
-msgstr "Identificatiecode"
+msgstr "Identificatie-aanduiding"
 
 #: xepub/window.py:1468
 msgid "Description"

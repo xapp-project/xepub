@@ -1,0 +1,361 @@
+# Korean translation for linuxmint
+# Copyright (c) 2026 Rosetta Contributors and Canonical Ltd 2026
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-09-23 12:47+0100\n"
+"PO-Revision-Date: 2026-11-19 07:59+0000\n"
+"Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2026-11-24 12:02+0000\n"
+"X-Generator: Launchpad (build 012091084314157d19ae714f55ef4c582ff0feb5)\n"
+
+#: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
+msgid "Book Reader"
+msgstr "전자책 리더"
+
+#: data/xepub.desktop.in:3
+msgid "Read EPUB books"
+msgstr "EPUB 전자책을 읽습니다"
+
+#: data/xepub.desktop.in:10
+msgid "ebook;book;reader;EPUB;"
+msgstr "ebook;책;리더;EPUB;"
+
+#: xepub/window.ui:20 xepub/window.py:168 xepub/window.py:220
+msgid "Contents"
+msgstr "목차"
+
+#: xepub/window.ui:40 xepub/window.py:221
+msgid "Bookmarks"
+msgstr "책갈피"
+
+#: xepub/window.ui:60 xepub/window.py:223
+msgid "Annotations"
+msgstr "주석"
+
+#: xepub/window.ui:80 xepub/window.py:222
+msgid "Search"
+msgstr "검색"
+
+#: xepub/window.ui:130
+msgid "Next page"
+msgstr "다음 페이지"
+
+#: xepub/window.ui:149
+msgid "Previous page"
+msgstr "이전 페이지"
+
+#: xepub/window.ui:242
+msgid "No book open"
+msgstr "열린 책 없음"
+
+#: xepub/window.ui:255 xepub/main.py:59
+msgid "Open a Book…"
+msgstr "책 열기…"
+
+#: xepub/main.py:60
+msgid "Open"
+msgstr "열기"
+
+#: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
+#: xepub/window.py:1128
+msgid "Cancel"
+msgstr "취소"
+
+#: xepub/main.py:61
+msgid "EPUB books"
+msgstr "EPUB 전자책"
+
+#: xepub/preferences.py:14 xepub/preferences.py:249
+msgid "Dictionary"
+msgstr "사전"
+
+#: xepub/preferences.py:15 xepub/preferences.py:251
+msgid "Translate"
+msgstr "번역"
+
+#: xepub/preferences.py:16 xepub/preferences.py:250
+msgid "Encyclopedia"
+msgstr "백과사전"
+
+#: xepub/preferences.py:29 xepub/window.py:154
+msgid "Preferences"
+msgstr "설정"
+
+#: xepub/preferences.py:49
+msgid "Reading"
+msgstr "읽기"
+
+#: xepub/preferences.py:50
+msgid "Search Engines"
+msgstr "검색 엔진"
+
+#: xepub/preferences.py:60
+msgid "System Theme"
+msgstr "시스템 테마"
+
+#: xepub/preferences.py:61
+msgid "Light"
+msgstr "밝음"
+
+#: xepub/preferences.py:62
+msgid "Sepia"
+msgstr "세피아"
+
+#: xepub/preferences.py:63
+msgid "Dark"
+msgstr "어두움"
+
+#: xepub/preferences.py:74
+msgid "Theme"
+msgstr "테마"
+
+#: xepub/preferences.py:75
+msgid "Prefer dark theme"
+msgstr "어두운 테마 선호"
+
+#: xepub/preferences.py:76
+msgid "Page margins (px)"
+msgstr "페이지 여백 (px)"
+
+#: xepub/preferences.py:77
+msgid "Zoom (%)"
+msgstr "확대/축소 (%)"
+
+#: xepub/preferences.py:78
+msgid "Use book styling"
+msgstr "책 스타일 사용"
+
+#: xepub/preferences.py:93
+msgid "Left"
+msgstr "왼쪽"
+
+#: xepub/preferences.py:93
+msgid "Justified"
+msgstr "양쪽"
+
+#: xepub/preferences.py:96
+msgid "Font family"
+msgstr "글꼴 모음"
+
+#: xepub/preferences.py:97
+msgid "Font size (px)"
+msgstr "글꼴 크기 (px)"
+
+#: xepub/preferences.py:98
+msgid "Line spacing (px)"
+msgstr "줄 간격 (px)"
+
+#: xepub/preferences.py:99
+msgid "Alignment"
+msgstr "맞춤"
+
+#: xepub/preferences.py:102
+msgid "Custom typography"
+msgstr "사용자 지정 타이포그래피"
+
+#: xepub/preferences.py:117
+msgid "Reset to Defaults"
+msgstr "기본값으로 초기화"
+
+#: xepub/preferences.py:157
+msgid "Search engines used for selected words"
+msgstr "선택한 단어 검색에 사용할 검색 엔진"
+
+#: xepub/preferences.py:173
+msgid "Add"
+msgstr "추가"
+
+#: xepub/preferences.py:174
+msgid "Edit"
+msgstr "편집"
+
+#: xepub/preferences.py:175
+msgid "Remove"
+msgstr "제거"
+
+#: xepub/preferences.py:243
+msgid "Search Engine"
+msgstr "검색 엔진"
+
+#: xepub/preferences.py:246 xepub/window.py:1129
+msgid "Save"
+msgstr "저장"
+
+#: xepub/preferences.py:252
+msgid "Other"
+msgstr "기타"
+
+#: xepub/preferences.py:258
+msgid "Type"
+msgstr "종류"
+
+#: xepub/preferences.py:260
+msgid "Name"
+msgstr "이름"
+
+#: xepub/preferences.py:262
+msgid "URL"
+msgstr "URL"
+
+#: xepub/preferences.py:264
+#, python-brace-format
+msgid "Use {text} where the selected text should appear."
+msgstr "선택한 텍스트가 들어갈 위치에 {text}를 사용하세요."
+
+#: xepub/window.py:155
+msgid "Book Information"
+msgstr "책 정보"
+
+#: xepub/window.py:156
+msgid "About"
+msgstr "정보"
+
+#: xepub/window.py:157
+msgid "Quit"
+msgstr "끝내기"
+
+#: xepub/window.py:174
+msgid "No chapters"
+msgstr "챕터 없음"
+
+#: xepub/window.py:182
+msgid "No annotations"
+msgstr "주석 없음"
+
+#: xepub/window.py:190
+msgid "No bookmarks"
+msgstr "책갈피 없음"
+
+#: xepub/window.py:193
+msgid "Search this book"
+msgstr "이 책에서 검색"
+
+#: xepub/window.py:202
+msgid "Search options"
+msgstr "검색 옵션"
+
+#: xepub/window.py:209
+msgid "Enter search terms"
+msgstr "검색어 입력"
+
+#: xepub/window.py:212
+msgid "No results"
+msgstr "결과 없음"
+
+#: xepub/window.py:328
+msgid "Bookmark"
+msgstr "책갈피"
+
+#: xepub/window.py:333
+msgid "Remove bookmark"
+msgstr "책갈피 제거"
+
+#: xepub/window.py:409
+msgid "Delete annotation"
+msgstr "주석 지우기"
+
+#: xepub/window.py:504
+msgid "Could not open book"
+msgstr "책을 열 수 없습니다"
+
+#: xepub/window.py:579
+msgid "Open external link?"
+msgstr "외부 링크를 열까요?"
+
+#: xepub/window.py:581
+msgid "Open in browser"
+msgstr "브라우저에서 열기"
+
+#: xepub/window.py:900
+#, python-format
+msgid "%(chapter)s · Page %(page)d of %(pages)d · %(progress)d%%"
+msgstr "%(chapter)s · 전체 %(pages)d페이지 중 %(page)d페이지 · %(progress)d%%"
+
+#: xepub/window.py:992
+msgid "Go Back"
+msgstr "뒤로 가기"
+
+#: xepub/window.py:999
+msgid "Add bookmark"
+msgstr "책갈피 추가"
+
+#: xepub/window.py:1127
+msgid "Annotation"
+msgstr "주석"
+
+#: xepub/window.py:1131
+msgid "Yellow"
+msgstr "노랑"
+
+#: xepub/window.py:1132
+msgid "Pink"
+msgstr "분홍"
+
+#: xepub/window.py:1133
+msgid "Blue"
+msgstr "파랑"
+
+#: xepub/window.py:1134
+msgid "Green"
+msgstr "녹색"
+
+#: xepub/window.py:1155
+msgid "Highlight color"
+msgstr "강조 표시 색"
+
+#: xepub/window.py:1157
+msgid "Note"
+msgstr "노트"
+
+#: xepub/window.py:1235
+msgid "All chapters"
+msgstr "모든 챕터"
+
+#: xepub/window.py:1237
+msgid "Current chapter"
+msgstr "현재 챕터"
+
+#: xepub/window.py:1243
+msgid "Case sensitive"
+msgstr "대/소문자 구분"
+
+#: xepub/window.py:1244
+msgid "Whole words only"
+msgstr "전체 단어만"
+
+#: xepub/window.py:1467
+msgid "Title"
+msgstr "제목"
+
+#: xepub/window.py:1467
+msgid "Author"
+msgstr "저자"
+
+#: xepub/window.py:1467
+msgid "Language"
+msgstr "언어"
+
+#: xepub/window.py:1468
+msgid "Publisher"
+msgstr "출판사"
+
+#: xepub/window.py:1468
+msgid "Identifier"
+msgstr "식별자"
+
+#: xepub/window.py:1468
+msgid "Description"
+msgstr "설명"
+
+#: xepub/window.py:1470
+msgid "Book information"
+msgstr "책 정보"

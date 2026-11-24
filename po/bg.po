@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2026-09-23 12:47+0100\n"
-"PO-Revision-Date: 2026-09-24 12:16+0000\n"
-"Last-Translator: Peyu Yovev <Unknown>\n"
+"PO-Revision-Date: 2026-11-22 12:02+0000\n"
+"Last-Translator: Salif Mehmed <mail@salif.eu>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-11-16 12:02+0000\n"
-"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"X-Launchpad-Export-Date: 2026-11-24 12:02+0000\n"
+"X-Generator: Launchpad (build 012091084314157d19ae714f55ef4c582ff0feb5)\n"
 
 #: data/xepub.desktop.in:2 xepub/main.py:23 xepub/window.py:1477
 msgid "Book Reader"
-msgstr "Четен на електронни книги"
+msgstr "Четец на електронни книги"
 
 #: data/xepub.desktop.in:3
 msgid "Read EPUB books"
@@ -59,11 +59,11 @@ msgstr "Няма отворена книга"
 
 #: xepub/window.ui:255 xepub/main.py:59
 msgid "Open a Book…"
-msgstr "Отваряне на книга..."
+msgstr "Отваряне на книга…"
 
 #: xepub/main.py:60
 msgid "Open"
-msgstr "Отвoри"
+msgstr "Отваряне"
 
 #: xepub/main.py:60 xepub/preferences.py:245 xepub/window.py:580
 #: xepub/window.py:1128
@@ -80,7 +80,7 @@ msgstr "Речник"
 
 #: xepub/preferences.py:15 xepub/preferences.py:251
 msgid "Translate"
-msgstr "Преведи"
+msgstr "Преводач"
 
 #: xepub/preferences.py:16 xepub/preferences.py:250
 msgid "Encyclopedia"
@@ -96,7 +96,7 @@ msgstr "Четете"
 
 #: xepub/preferences.py:50
 msgid "Search Engines"
-msgstr "Търсещи машини"
+msgstr "Търсачки"
 
 #: xepub/preferences.py:60
 msgid "System Theme"
@@ -124,7 +124,7 @@ msgstr "Тъмна тема за предпочитане"
 
 #: xepub/preferences.py:76
 msgid "Page margins (px)"
-msgstr "Отстояниа на страницата (px)"
+msgstr "Отстояния на страницата (px)"
 
 #: xepub/preferences.py:77
 msgid "Zoom (%)"
@@ -168,7 +168,7 @@ msgstr "Възстановяване по подразбиране"
 
 #: xepub/preferences.py:157
 msgid "Search engines used for selected words"
-msgstr "Търсещи машини"
+msgstr "Търсачки, използвани за избраните думи"
 
 #: xepub/preferences.py:173
 msgid "Add"
@@ -176,11 +176,11 @@ msgstr "Добавяне"
 
 #: xepub/preferences.py:174
 msgid "Edit"
-msgstr "Редакция"
+msgstr "Редактиране"
 
 #: xepub/preferences.py:175
 msgid "Remove"
-msgstr "Премахни"
+msgstr "Премахване"
 
 #: xepub/preferences.py:243
 msgid "Search Engine"
@@ -237,7 +237,7 @@ msgstr "Липсват отметки"
 
 #: xepub/window.py:193
 msgid "Search this book"
-msgstr "Търси книга"
+msgstr "Търсене в книгата"
 
 #: xepub/window.py:202
 msgid "Search options"
@@ -257,7 +257,7 @@ msgstr "Отметка"
 
 #: xepub/window.py:333
 msgid "Remove bookmark"
-msgstr "Премахни отметката"
+msgstr "Премахване на отметката"
 
 #: xepub/window.py:409
 msgid "Delete annotation"
