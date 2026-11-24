@@ -1,3 +1,9 @@
+xepub (1.0.6) adrien; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 24 Nov 2026 16:55:30 +0000
+
 xepub (1.0.5) adrien; urgency=medium
 
   * menu: Move to accessories
