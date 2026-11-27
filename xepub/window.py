@@ -43,6 +43,7 @@ class ReaderWindow(Gtk.ApplicationWindow):
         height = self.settings.get_int("window-height")
         self.set_default_size(width, height)
         self.set_position(Gtk.WindowPosition.CENTER)
+        self.set_icon_name("xepub")
         if self.settings.get_boolean("window-maximized"):
             self.maximize()
         self.book = None
